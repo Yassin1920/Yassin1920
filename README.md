@@ -1,37 +1,49 @@
-<h1 align="center">Hi 👋, I'm Mohamed Yassine</h1>
-<h3 align="center">Full Stack Developer</h3>
+<h1 align="center">Mohamed Yassine</h1>
 
 <p align="center">
-Passionate about building scalable web applications and solving real-world problems through technology.
+Full Stack Developer • Web Applications • Software Engineering
+</p>
+
+<p align="center">
+Passionate about designing and developing scalable web applications, combining strong backend architecture with modern frontend technologies.
 </p>
 
 ---
 
-## 🚀 About Me
+## 👨‍💻 Professional Summary
 
-- 💻 Full Stack Developer  
-- 🎓 IT Student  
-- 🌍 Based in Tunisia  
-- 🧠 Interested in Web Development, Backend Architecture and Modern Frontend Technologies  
-- ⚡ Always learning and improving my development skills  
+Full Stack Developer with experience building dynamic web applications using modern technologies.  
+Skilled in both frontend and backend development, with a strong interest in software architecture, database design, and performance optimization.
+
+Focused on writing clean, maintainable code and developing real-world solutions.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Technical Skills
 
-### Frontend
+### Frontend Development
 
 <p>
 <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap" />
 </p>
 
+- HTML5
+- CSS3
+- JavaScript
+- React
+- Bootstrap
+
 ---
 
-### Backend
+### Backend Development
 
 <p>
 <img src="https://skillicons.dev/icons?i=php,laravel,symfony" />
 </p>
+
+- PHP
+- Laravel
+- Symfony
 
 ---
 
@@ -41,17 +53,24 @@ Passionate about building scalable web applications and solving real-world probl
 <img src="https://skillicons.dev/icons?i=mysql,postgresql" />
 </p>
 
-Oracle Database
+- MySQL  
+- PostgreSQL  
+- Oracle Database  
 
 ---
 
-### Tools & Development Environment
+### Development Tools
 
 <p>
 <img src="https://skillicons.dev/icons?i=git,docker,vscode,postman" />
 </p>
 
-WAMP • StarUML
+- Git
+- Docker
+- Visual Studio Code
+- Postman
+- WAMP
+- StarUML
 
 ---
 
@@ -59,40 +78,56 @@ WAMP • StarUML
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Yassin1920&show_icons=true&theme=tokyonight" />
+<img src="https://github-readme-stats.vercel.app/api?username=Yassin1920&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yassin1920&layout=compact&theme=tokyonight" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yassin1920&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
 
 </p>
 
 ---
 
-## 📂 Projects
+## 📂 Featured Projects
 
-### 🚀 Borne Web
-Web platform project focused on modern web interface development.
+### 🖥️ Borne Web
+Web-based platform focused on modern UI and interactive web interfaces.
 
-### 🛒 E-commerce Project
-Full stack e-commerce web application including product management and user interactions.
-
-### 🏨 Hotel Project
-Hotel management web application including reservations and service management.
+Technologies used:
+HTML • CSS • JavaScript • Bootstrap
 
 ---
 
-## 🧠 Currently Learning
+### 🛒 E-commerce Project
+Full stack e-commerce application allowing product management and user interactions.
+
+Technologies used:
+React • PHP • MySQL • Bootstrap
+
+---
+
+### 🏨 Hotel Management Project
+Web application for hotel service management including reservations and administrative operations.
+
+Technologies used:
+Symfony • PostgreSQL • JavaScript
+
+---
+
+## 📚 Currently Expanding Knowledge In
 
 - Advanced Backend Architecture
 - API Development
-- Docker & Containerization
-- Modern JavaScript frameworks
+- Containerization using Docker
+- Scalable Web Application Design
 
 ---
 
-## 📫 Contact
+## 🌐 Connect
 
-- GitHub: https://github.com/Yassin1920
+GitHub:  
+https://github.com/Yassin1920
 
 ---
 
-⭐ From **Mohamed Yassine**
+<p align="center">
+Building reliable software solutions through clean architecture and modern technologies.
+</p>

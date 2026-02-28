@@ -62,21 +62,18 @@ I enjoy solving complex technical problems, designing structured systems, and co
 ### 🖥️ Borne Web
 A modern web application focused on clean interfaces and interactive user experiences.  
 **Technologies:** HTML • CSS • JavaScript • Bootstrap  
-**Live Demo / GitHub:** `[Add your link here]`
 
 ---
 
 ### 🛒 E-commerce Platform
 Full-stack web application providing product management, user interaction, and structured backend architecture.  
 **Technologies:** React • PHP • MySQL • Bootstrap  
-**Live Demo / GitHub:** `[Add your link here]`
 
 ---
 
 ### 🏨 Hotel Management System
 Web-based management system designed to handle reservations and hotel administrative operations.  
 **Technologies:** Symfony • PostgreSQL • JavaScript  
-**Live Demo / GitHub:** `[Add your link here]`
 
 ---
 

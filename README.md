@@ -77,29 +77,83 @@ Web-based management system designed to handle reservations and hotel administra
 
 ---
 
-## 🌐 Contact Me
+<!-- CONTACT SECTION -->
+<section id="contact" style="padding:50px 0; background: linear-gradient(135deg, #f0f0f0, #e0e0ff); text-align:center;">
+  <h2 style="font-size:2.5em; margin-bottom:10px; color:#333;">🌐 Contact Me</h2>
+  <p style="color:#555; font-size:1.1em; margin-bottom:40px;">
+    Let's connect! I love collaborating on innovative web projects.
+  </p>
 
-<div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin-top:10px;">
+  <div class="contact-buttons" style="display:flex; justify-content:center; flex-wrap:wrap; gap:25px;">
+    
+    <!-- Email -->
+    <a href="mailto:mouhamedyassin6@gmail.com" class="contact-btn" target="_blank">
+      <i class="fas fa-envelope"></i>
+      <span>Email Me</span>
+    </a>
 
-  <a href="mailto:mouhamedyassin6@gmail.com" style="text-decoration:none; transition: transform 0.3s;">
-    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" 
-         onmouseover="this.style.transform='scale(1.1)'" 
-         onmouseout="this.style.transform='scale(1)'"/>
-  </a>
+    <!-- WhatsApp -->
+    <a href="https://wa.me/21622314826" class="contact-btn" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+      <span>WhatsApp</span>
+    </a>
 
-  <a href="https://wa.me/21622314826" style="text-decoration:none; transition: transform 0.3s;">
-    <img src="https://img.shields.io/badge/WhatsApp-Message-green?style=for-the-badge&logo=whatsapp&logoColor=white" 
-         onmouseover="this.style.transform='scale(1.1)'" 
-         onmouseout="this.style.transform='scale(1)'"/>
-  </a>
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/" class="contact-btn" target="_blank">
+      <i class="fab fa-linkedin"></i>
+      <span>LinkedIn</span>
+    </a>
 
-  <a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/" style="text-decoration:none; transition: transform 0.3s;">
-    <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white" 
-         onmouseover="this.style.transform='scale(1.1)'" 
-         onmouseout="this.style.transform='scale(1)'"/>
-  </a>
+    <!-- GitHub (optional) -->
+    <a href="https://github.com/your-username" class="contact-btn" target="_blank">
+      <i class="fab fa-github"></i>
+      <span>GitHub</span>
+    </a>
 
-</div>
+  </div>
+</section>
+
+<!-- STYLES -->
+<style>
+.contact-btn {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:15px 25px;
+  background:#4b6cb7;
+  color:white;
+  font-size:1.1em;
+  border-radius:50px;
+  text-decoration:none;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transform: translateY(0);
+}
+
+.contact-btn i {
+  font-size:1.5em;
+  transition: all 0.3s ease;
+}
+
+/* Hover animations */
+.contact-btn:hover {
+  background: #182848;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.contact-btn:hover i {
+  animation: bounce 0.6s;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+</style>
+
+<!-- FONT AWESOME CDN -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
 <p align="center" style="margin-top:15px; font-style:italic; color:#555;">
 Let's connect! I love collaborating on innovative web projects.

@@ -77,26 +77,30 @@ Web-based management system designed to handle reservations and hotel administra
 
 ---
 
-## 🌐 Contact
+## 🌐 Contact Me
 
-<p align="center">
+<div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin-top:10px;">
 
-<a href="mailto:mouhamedyassin6@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+  <a href="mailto:mouhamedyassin6@gmail.com" style="text-decoration:none; transition: transform 0.3s;">
+    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" 
+         onmouseover="this.style.transform='scale(1.1)'" 
+         onmouseout="this.style.transform='scale(1)'"/>
+  </a>
 
-<a href="https://wa.me/21622314826">
-<img src="https://img.shields.io/badge/WhatsApp-Message-green?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-</a>
+  <a href="https://wa.me/21622314826" style="text-decoration:none; transition: transform 0.3s;">
+    <img src="https://img.shields.io/badge/WhatsApp-Message-green?style=for-the-badge&logo=whatsapp&logoColor=white" 
+         onmouseover="this.style.transform='scale(1.1)'" 
+         onmouseout="this.style.transform='scale(1)'"/>
+  </a>
 
-<a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/">
-<img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+  <a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/" style="text-decoration:none; transition: transform 0.3s;">
+    <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white" 
+         onmouseover="this.style.transform='scale(1.1)'" 
+         onmouseout="this.style.transform='scale(1)'"/>
+  </a>
 
-</p>
+</div>
 
----
-
-<p align="center">
-Building reliable software solutions through clean architecture, modern technologies, and continuous learning.
+<p align="center" style="margin-top:15px; font-style:italic; color:#555;">
+Let's connect! I love collaborating on innovative web projects.
 </p>

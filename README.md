@@ -1,105 +1,98 @@
-<h1 align="center">Abed Mouhamed Yassin</h1>
+<h1 align="center">Hi 👋, I'm Mohamed Yassine</h1>
+<h3 align="center">Full Stack Developer</h3>
 
 <p align="center">
-<strong>Full Stack Developer</strong>
-</p>
-
-<p align="center">
-Designing scalable web applications, building reliable backend systems, and crafting modern web interfaces.
+Passionate about building scalable web applications and solving real-world problems through technology.
 </p>
 
 ---
 
-## 👨‍💻 About Me
+## 🚀 About Me
 
-I am a Full Stack Developer passionate about building robust and scalable web applications.  
-My focus is combining solid backend architecture with modern frontend technologies to deliver efficient and maintainable software solutions.
-
-I enjoy solving complex technical problems, designing structured systems, and continuously learning new technologies to improve my engineering skills.
+- 💻 Full Stack Developer  
+- 🎓 IT Student  
+- 🌍 Based in Tunisia  
+- 🧠 Interested in Web Development, Backend Architecture and Modern Frontend Technologies  
+- ⚡ Always learning and improving my development skills  
 
 ---
 
-## 🚀 Core Technical Skills
+## 🛠️ Tech Stack
 
-### Frontend Development
-<p align="center">
+### Frontend
+
+<p>
 <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap" />
 </p>
 
-**HTML5 • CSS3 • JavaScript • React • Bootstrap**
-
 ---
 
-### Backend Development
-<p align="center">
+### Backend
+
+<p>
 <img src="https://skillicons.dev/icons?i=php,laravel,symfony" />
 </p>
 
-**PHP • Laravel • Symfony**
-
 ---
 
-### Database Systems
-<p align="center">
-<img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,oracle" />
+### Databases
+
+<p>
+<img src="https://skillicons.dev/icons?i=mysql,postgresql" />
 </p>
 
-**MySQL • PostgreSQL • Oracle Database • MongoDB**
+Oracle Database
 
 ---
 
-### Development Tools & Environment
-<p align="center">
+### Tools & Development Environment
+
+<p>
 <img src="https://skillicons.dev/icons?i=git,docker,vscode,postman" />
 </p>
 
-**Git • Docker • Visual Studio Code • Postman • WAMP • StarUML**
+WAMP • StarUML
 
 ---
 
-## 📂 Featured Projects
-
-### 🖥️ Borne Web
-A modern web application focused on clean interfaces and interactive user experiences.  
-**Technologies:** HTML • CSS • JavaScript • Bootstrap  
-**Live Demo / GitHub:** `[Add your link here]`
-
----
-
-### 🛒 E-commerce Platform
-Full-stack web application providing product management, user interaction, and structured backend architecture.  
-**Technologies:** React • PHP • MySQL • Bootstrap  
-**Live Demo / GitHub:** `[Add your link here]`
-
----
-
-### 🏨 Hotel Management System
-Web-based management system designed to handle reservations and hotel administrative operations.  
-**Technologies:** Symfony • PostgreSQL • JavaScript  
-**Live Demo / GitHub:** `[Add your link here]`
-
----
-
-## 🌐 Contact
+## 📊 GitHub Statistics
 
 <p align="center">
 
-<a href="mailto:mouhamedyassin6@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+<img src="https://github-readme-stats.vercel.app/api?username=Yassin1920&show_icons=true&theme=tokyonight" />
 
-<a href="https://wa.me/21622314826">
-<img src="https://img.shields.io/badge/WhatsApp-Message-green?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/">
-<img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yassin1920&layout=compact&theme=tokyonight" />
 
 </p>
 
 ---
 
-<p align="center">
-Building reliable software solutions through clean architecture, modern technologies, and continuous learning.
-</p>
+## 📂 Projects
+
+### 🚀 Borne Web
+Web platform project focused on modern web interface development.
+
+### 🛒 E-commerce Project
+Full stack e-commerce web application including product management and user interactions.
+
+### 🏨 Hotel Project
+Hotel management web application including reservations and service management.
+
+---
+
+## 🧠 Currently Learning
+
+- Advanced Backend Architecture
+- API Development
+- Docker & Containerization
+- Modern JavaScript frameworks
+
+---
+
+## 📫 Contact
+
+- GitHub: https://github.com/Yassin1920
+
+---
+
+⭐ From **Mohamed Yassine**

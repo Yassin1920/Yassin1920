@@ -2,82 +2,97 @@
 <h3 align="center">Full Stack Developer</h3>
 
 <p align="center">
-Passionate about building scalable web applications and modern user experiences.
+Passionate about building scalable web applications and solving real-world problems through technology.
 </p>
 
 ---
 
 ## 🚀 About Me
 
-- 🎓 IT Student
-- 💻 Full Stack Developer
-- 🌱 Currently learning **Laravel, Angular, Flutter**
-- 🧠 Interested in **Web Development & Software Architecture**
-- ⚡ Love building real-world applications
+- 💻 Full Stack Developer  
+- 🎓 IT Student  
+- 🌍 Based in Tunisia  
+- 🧠 Interested in Web Development, Backend Architecture and Modern Frontend Technologies  
+- ⚡ Always learning and improving my development skills  
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- HTML
-- CSS
-- JavaScript
-- Bootstrap
-- Angular
+
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap" />
+</p>
+
+---
 
 ### Backend
-- PHP
-- Laravel
-- Java
-- Spring Boot
 
-### Mobile
-- Flutter
-
-### Database
-- MySQL
-- MongoDB
-
-### Tools
-- Git
-- WAMP
-- StarUML
-- Figma
+<p>
+<img src="https://skillicons.dev/icons?i=php,laravel,symfony" />
+</p>
 
 ---
 
-## 📊 GitHub Stats
+### Databases
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Yassin1920&show_icons=true&theme=tokyonight)
+<p>
+<img src="https://skillicons.dev/icons?i=mysql,postgresql" />
+</p>
 
----
-
-## 🔥 Most Used Languages
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yassin1920&layout=compact&theme=tokyonight)
+Oracle Database
 
 ---
 
-## 📂 Featured Projects
+### Tools & Development Environment
 
-### 🚗 Car Rental System
-Web application to manage car reservations using **PHP & MySQL**.
+<p>
+<img src="https://skillicons.dev/icons?i=git,docker,vscode,postman" />
+</p>
 
-### 🎓 Student Absence Management
-Laravel application for tracking and managing student absences.
-
-### 📱 Fitness App
-Mobile application built with **Flutter** for workout program management.
+WAMP • StarUML
 
 ---
 
-## 📫 Contact Me
+## 📊 GitHub Statistics
 
-- 📧 Email: your-email@email.com
-- 💼 LinkedIn: your-linkedin
-- 🌍 Portfolio: coming soon
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Yassin1920&show_icons=true&theme=tokyonight" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yassin1920&layout=compact&theme=tokyonight" />
+
+</p>
 
 ---
 
-⭐ From [Yassin1920](https://github.com/Yassin1920)
+## 📂 Projects
+
+### 🚀 Borne Web
+Web platform project focused on modern web interface development.
+
+### 🛒 E-commerce Project
+Full stack e-commerce web application including product management and user interactions.
+
+### 🏨 Hotel Project
+Hotel management web application including reservations and service management.
+
+---
+
+## 🧠 Currently Learning
+
+- Advanced Backend Architecture
+- API Development
+- Docker & Containerization
+- Modern JavaScript frameworks
+
+---
+
+## 📫 Contact
+
+- GitHub: https://github.com/Yassin1920
+
+---
+
+⭐ From **Mohamed Yassine**

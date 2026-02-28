@@ -1,7 +1,7 @@
 <h1 align="center">Abed Mouhamed Yassin</h1>
 
 <p align="center">
-Full Stack Developer 
+<strong>Full Stack Developer</strong>
 </p>
 
 <p align="center">
@@ -22,65 +22,67 @@ I enjoy solving complex technical problems, designing structured systems, and co
 ## 🚀 Core Technical Skills
 
 ### Frontend Development
-<p>
+<p align="center">
 <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap" />
 </p>
 
-HTML5 • CSS3 • JavaScript • React • Bootstrap
+**HTML5 • CSS3 • JavaScript • React • Bootstrap**
 
 ---
 
 ### Backend Development
-<p>
+<p align="center">
 <img src="https://skillicons.dev/icons?i=php,laravel,symfony" />
 </p>
 
-PHP • Laravel • Symfony
+**PHP • Laravel • Symfony**
 
 ---
 
 ### Database Systems
-<p>
-<img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb" />
+<p align="center">
+<img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,oracle" />
 </p>
 
-MySQL • PostgreSQL • Oracle Database • MongoDB
+**MySQL • PostgreSQL • Oracle Database • MongoDB**
 
 ---
 
 ### Development Tools & Environment
-<p>
+<p align="center">
 <img src="https://skillicons.dev/icons?i=git,docker,vscode,postman" />
 </p>
 
-Git • Docker • Visual Studio Code • Postman • WAMP • StarUML
+**Git • Docker • Visual Studio Code • Postman • WAMP • StarUML**
 
 ---
 
 ## 📂 Featured Projects
 
 ### 🖥️ Borne Web
-Web application focused on modern interface development and interactive user experiences.  
-Technologies: **HTML • CSS • JavaScript • Bootstrap**
+A modern web application focused on clean interfaces and interactive user experiences.  
+**Technologies:** HTML • CSS • JavaScript • Bootstrap  
+**Live Demo / GitHub:** `[Add your link here]`
 
 ---
 
 ### 🛒 E-commerce Platform
 Full-stack web application providing product management, user interaction, and structured backend architecture.  
-Technologies: **React • PHP • MySQL • Bootstrap**
+**Technologies:** React • PHP • MySQL • Bootstrap  
+**Live Demo / GitHub:** `[Add your link here]`
 
 ---
 
 ### 🏨 Hotel Management System
-Web-based management system designed to handle reservations and administrative hotel operations.  
-Technologies: **Symfony • PostgreSQL • JavaScript**
+Web-based management system designed to handle reservations and hotel administrative operations.  
+**Technologies:** Symfony • PostgreSQL • JavaScript  
+**Live Demo / GitHub:** `[Add your link here]`
 
 ---
 
-
 ## 🌐 Contact
 
-<p>
+<p align="center">
 
 <a href="mailto:mouhamedyassin6@gmail.com">
 <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white"/>
@@ -90,7 +92,7 @@ Technologies: **Symfony • PostgreSQL • JavaScript**
 <img src="https://img.shields.io/badge/WhatsApp-Message-green?style=for-the-badge&logo=whatsapp&logoColor=white"/>
 </a>
 
-<a href="[https://linkedin.com/in/your-linkedin](https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/)">
+<a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/">
 <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 

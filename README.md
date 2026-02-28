@@ -1,133 +1,103 @@
-<h1 align="center">Mohamed Yassine</h1>
+<h1 align="center">Abed Mouhamed Yassin</h1>
 
 <p align="center">
-Full Stack Developer • Web Applications • Software Engineering
+Full Stack Developer 
 </p>
 
 <p align="center">
-Passionate about designing and developing scalable web applications, combining strong backend architecture with modern frontend technologies.
+Designing scalable web applications, building reliable backend systems, and crafting modern web interfaces.
 </p>
 
 ---
 
-## 👨‍💻 Professional Summary
+## 👨‍💻 About Me
 
-Full Stack Developer with experience building dynamic web applications using modern technologies.  
-Skilled in both frontend and backend development, with a strong interest in software architecture, database design, and performance optimization.
+I am a Full Stack Developer passionate about building robust and scalable web applications.  
+My focus is combining solid backend architecture with modern frontend technologies to deliver efficient and maintainable software solutions.
 
-Focused on writing clean, maintainable code and developing real-world solutions.
+I enjoy solving complex technical problems, designing structured systems, and continuously learning new technologies to improve my engineering skills.
 
 ---
 
-## 🚀 Technical Skills
+## 🚀 Core Technical Skills
 
 ### Frontend Development
-
 <p>
 <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap" />
 </p>
 
-- HTML5
-- CSS3
-- JavaScript
-- React
-- Bootstrap
+HTML5 • CSS3 • JavaScript • React • Bootstrap
 
 ---
 
 ### Backend Development
-
 <p>
 <img src="https://skillicons.dev/icons?i=php,laravel,symfony" />
 </p>
 
-- PHP
-- Laravel
-- Symfony
+PHP • Laravel • Symfony
 
 ---
 
-### Databases
-
+### Database Systems
 <p>
-<img src="https://skillicons.dev/icons?i=mysql,postgresql" />
+<img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb" />
 </p>
 
-- MySQL  
-- PostgreSQL  
-- Oracle Database  
+MySQL • PostgreSQL • Oracle Database • MongoDB
 
 ---
 
-### Development Tools
-
+### Development Tools & Environment
 <p>
 <img src="https://skillicons.dev/icons?i=git,docker,vscode,postman" />
 </p>
 
-- Git
-- Docker
-- Visual Studio Code
-- Postman
-- WAMP
-- StarUML
-
----
-
-## 📊 GitHub Statistics
-
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Yassin1920&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yassin1920&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
-
-</p>
+Git • Docker • Visual Studio Code • Postman • WAMP • StarUML
 
 ---
 
 ## 📂 Featured Projects
 
 ### 🖥️ Borne Web
-Web-based platform focused on modern UI and interactive web interfaces.
-
-Technologies used:
-HTML • CSS • JavaScript • Bootstrap
+Web application focused on modern interface development and interactive user experiences.  
+Technologies: **HTML • CSS • JavaScript • Bootstrap**
 
 ---
 
-### 🛒 E-commerce Project
-Full stack e-commerce application allowing product management and user interactions.
-
-Technologies used:
-React • PHP • MySQL • Bootstrap
+### 🛒 E-commerce Platform
+Full-stack web application providing product management, user interaction, and structured backend architecture.  
+Technologies: **React • PHP • MySQL • Bootstrap**
 
 ---
 
-### 🏨 Hotel Management Project
-Web application for hotel service management including reservations and administrative operations.
-
-Technologies used:
-Symfony • PostgreSQL • JavaScript
+### 🏨 Hotel Management System
+Web-based management system designed to handle reservations and administrative hotel operations.  
+Technologies: **Symfony • PostgreSQL • JavaScript**
 
 ---
 
-## 📚 Currently Expanding Knowledge In
 
-- Advanced Backend Architecture
-- API Development
-- Containerization using Docker
-- Scalable Web Application Design
+## 🌐 Contact
 
----
+<p>
 
-## 🌐 Connect
+<a href="mailto:mouhamedyassin6@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 
-GitHub:  
-https://github.com/Yassin1920
+<a href="https://wa.me/21622314826">
+<img src="https://img.shields.io/badge/WhatsApp-Message-green?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+</a>
+
+<a href="[https://linkedin.com/in/your-linkedin](https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/)">
+<img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+</p>
 
 ---
 
 <p align="center">
-Building reliable software solutions through clean architecture and modern technologies.
+Building reliable software solutions through clean architecture, modern technologies, and continuous learning.
 </p>

@@ -1,4 +1,4 @@
-<h1 align="center">Abed Mouhamed Yassin</h1>
+<h1 align="center">Hi 👋, I'm Abed Mouhamed Yassin</h1>
 
 <p align="center">
 <strong>Full Stack Developer</strong>
@@ -64,18 +64,17 @@ I enjoy solving complex technical problems, designing structured systems, and co
 Modern web application developed using **React** that consumes external APIs and integrates cloud-based services to provide a dynamic and scalable user experience.
 
 **Technologies:**  
-React • JavaScript • REST API • Cloud Services
+React • JavaScript • REST API 
 
 **Key Features:**
 - API data consumption
 - Dynamic React components
 - Modern responsive UI
-- Cloud integration
 - Scalable architecture
 
 ---
 
-## 🖥️ Web Management Application
+## 🖥️ E_commerce Plateform
 
 Full-stack web application developed with a traditional web stack focusing on structured backend logic and responsive frontend interfaces.
 

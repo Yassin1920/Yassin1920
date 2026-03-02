@@ -57,27 +57,63 @@ I enjoy solving complex technical problems, designing structured systems, and co
 
 ---
 
-## 📂 Featured Projects
+# 📂 Featured Projects
 
-### 🖥️ Borne Web
-A modern web application focused on clean interfaces and interactive user experiences.  
-**Technologies:** HTML • CSS • JavaScript • Bootstrap  
+## ⚛️ React Web Application – API Integration
 
----
+Modern web application developed using **React** that consumes external APIs and integrates cloud-based services to provide a dynamic and scalable user experience.
 
-### 🛒 E-commerce Platform
-Full-stack web application providing product management, user interaction, and structured backend architecture.  
-**Technologies:** React • PHP • MySQL • Bootstrap  
+**Technologies:**  
+React • JavaScript • REST API • Cloud Services
 
----
-
-### 🏨 Hotel Management System
-Web-based management system designed to handle reservations and hotel administrative operations.  
-**Technologies:** Symfony • PostgreSQL • JavaScript  
+**Key Features:**
+- API data consumption
+- Dynamic React components
+- Modern responsive UI
+- Cloud integration
+- Scalable architecture
 
 ---
 
-## 🌐 Contact
+## 🖥️ Web Management Application
+
+Full-stack web application developed with a traditional web stack focusing on structured backend logic and responsive frontend interfaces.
+
+**Frontend:**  
+HTML • CSS • JavaScript • Bootstrap  
+
+**Backend:**  
+PHP • MySQL
+
+**Key Features:**
+- CRUD operations (Create, Read, Update, Delete)
+- Responsive design using Bootstrap
+- Server-side processing with PHP
+- MySQL database management
+- Structured application architecture
+
+---
+
+## 🏨 Hotel Management System
+
+Web-based management system designed to handle hotel operations including reservations, customer management, and administrative tasks.
+
+**Frontend:**  
+HTML • CSS • JavaScript • Bootstrap  
+
+**Backend:**  
+PHP • MySQL
+
+**Key Features:**
+- Reservation management
+- Customer data handling
+- Administrative dashboard
+- Secure backend logic
+- Database-driven system
+
+---
+
+# 🌐 Contact
 
 <p align="center">
 

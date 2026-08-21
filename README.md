@@ -1,137 +1,134 @@
-<h1 align="center">Hi 👋, I'm Abed Mouhamed Yassin</h1>
+<div align="center">
 
-<p align="center">
-<strong>Full Stack Developer</strong>
-</p>
+# Hi, I'm Abed Mouhamed Yassin 👋
 
-<p align="center">
-Designing scalable web applications, building reliable backend systems, and crafting modern web interfaces.
-</p>
+### Full Stack Developer — Laravel · React · PHP
 
----
+Building scalable web applications with clean architecture, solid backend logic, and modern frontend interfaces.
+
+[![Email](https://img.shields.io/badge/Email-mouhamedyassin6%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mouhamedyassin6@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Message-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/21622314826)
+
+</div>
+
+<br>
 
 ## 👨‍💻 About Me
 
-I am a Full Stack Developer passionate about building robust and scalable web applications.  
-My focus is combining solid backend architecture with modern frontend technologies to deliver efficient and maintainable software solutions.
+I'm a Full Stack Developer focused on combining solid backend architecture with modern frontend technologies to ship efficient, maintainable software.
 
-I enjoy solving complex technical problems, designing structured systems, and continuously learning new technologies to improve my engineering skills.
+- 🔭 Currently building full-stack applications with **Laravel**, **Symfony**, and **React**
+- 🌱 Continuously deepening my knowledge of scalable system design and clean architecture
+- 💡 I enjoy solving complex technical problems and designing well-structured systems
+- 📫 Reach me at **mouhamedyassin6@gmail.com**
 
----
+<br>
 
-## 🚀 Core Technical Skills
+## 🚀 Tech Stack
 
-### Frontend Development
-<p align="center">
+<table>
+<tr>
+<td valign="top" width="50%">
+
+**Frontend**
+
 <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap" />
-</p>
 
-**HTML5 • CSS3 • JavaScript • React • Bootstrap**
+</td>
+<td valign="top" width="50%">
 
----
+**Backend**
 
-### Backend Development
-<p align="center">
 <img src="https://skillicons.dev/icons?i=php,laravel,symfony" />
-</p>
 
-**PHP • Laravel • Symfony**
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
 
----
+**Databases**
 
-### Database Systems
-<p align="center">
 <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,oracle" />
-</p>
 
-**MySQL • PostgreSQL • Oracle Database • MongoDB**
+</td>
+<td valign="top" width="50%">
 
----
+**Tools & Environment**
 
-### Development Tools & Environment
-<p align="center">
-<img src="https://skillicons.dev/icons?i=git,docker,vscode,postman" />
-</p>
+<img src="https://skillicons.dev/icons?i=git,github,docker,vscode,postman" />
 
-**Git • Docker • Visual Studio Code • Postman • WAMP • StarUML**
+</td>
+</tr>
+</table>
 
----
+<br>
 
-# 📂 Featured Projects
+## 📊 GitHub Stats
 
-## ⚛️ React Web Application – API Integration
+<div align="center">
 
-Modern web application developed using **React** that consumes external APIs and integrates cloud-based services to provide a dynamic and scalable user experience.
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=default&hide_border=true&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true" />
 
-**Technologies:**  
-React • JavaScript • REST API 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&hide_border=true" />
 
-**Key Features:**
-- API data consumption
-- Dynamic React components
-- Modern responsive UI
-- Scalable architecture
+</div>
 
----
+> Replace `YOUR_GITHUB_USERNAME` above with your actual GitHub username to activate these stats.
 
-## 🖥️ E_commerce Plateform
+<br>
 
-Full-stack web application developed with a traditional web stack focusing on structured backend logic and responsive frontend interfaces.
+## 📂 Featured Projects
 
-**Frontend:**  
-HTML • CSS • JavaScript • Bootstrap  
+### ⚛️ React Web Application — API Integration
+Modern web application built with **React**, consuming external REST APIs and cloud-based services to deliver a dynamic, scalable user experience.
 
-**Backend:**  
-PHP • MySQL
+`React` `JavaScript` `REST API`
 
-**Key Features:**
-- CRUD operations (Create, Read, Update, Delete)
-- Responsive design using Bootstrap
-- Server-side processing with PHP
-- MySQL database management
-- Structured application architecture
+- Dynamic, reusable React components
+- Live API data consumption
+- Responsive, modern UI
+- Built with scalability in mind
 
 ---
 
-## 🏨 Hotel Management System
+### 🖥️ E-Commerce Platform
+Full-stack e-commerce application built on a traditional web stack, with structured backend logic and a responsive frontend.
 
-Web-based management system designed to handle hotel operations including reservations, customer management, and administrative tasks.
+`HTML` `CSS` `JavaScript` `Bootstrap` `PHP` `MySQL`
 
-**Frontend:**  
-HTML • CSS • JavaScript • Bootstrap  
+- Full CRUD functionality
+- Responsive design with Bootstrap
+- Server-side processing in PHP
+- Structured MySQL database design
 
-**Backend:**  
-PHP • MySQL
+---
 
-**Key Features:**
-- Reservation management
+### 🏨 Hotel Management System
+Web-based system for managing hotel operations: reservations, customer records, and admin tasks.
+
+`HTML` `CSS` `JavaScript` `Bootstrap` `PHP` `MySQL`
+
+- Reservation management workflow
 - Customer data handling
-- Administrative dashboard
-- Secure backend logic
-- Database-driven system
+- Admin dashboard
+- Secure, database-driven backend
 
----
+<br>
 
-# 🌐 Contact
+> 💡 Tip: link each project above to its repo, e.g. `### [⚛️ React Web Application](https://github.com/you/repo-name)`, and consider adding a live demo link and a screenshot/GIF for each — recruiters respond well to visuals.
 
-<p align="center">
+<br>
 
-<a href="mailto:mouhamedyassin6@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+## 🌐 Let's Connect
 
-<a href="https://wa.me/21622314826">
-<img src="https://img.shields.io/badge/WhatsApp-Message-green?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-</a>
+<div align="center">
 
-<a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/">
-<img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mouhamedyassin6@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Message-green?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/21622314826)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/)
 
-</p>
+<sub>Building reliable software through clean architecture, modern technologies, and continuous learning.</sub>
 
----
-
-<p align="center">
-Building reliable software solutions through clean architecture, modern technologies, and continuous learning.
-</p>
+</div>

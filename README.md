@@ -1,8 +1,66 @@
 <div align="center">
-  <!-- Banner (SVG) -->
-  <img width="100%" src="./assets/banner.svg" alt="Abed Mouhamed Yassin — Full Stack Developer" />
+  <!-- ====== EMBEDDED SVG BANNER (no external file needed) ====== -->
+  <svg width="100%" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#0a0f1a" />
+        <stop offset="50%" stop-color="#0d1b2a" />
+        <stop offset="100%" stop-color="#0a0f1a" />
+      </linearGradient>
+      <linearGradient id="glowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#8BC7CA" stop-opacity="0.8" />
+        <stop offset="50%" stop-color="#64FFDA" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#00B4D8" stop-opacity="0.8" />
+        <animate attributeName="x1" values="0%;100%;0%" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="x2" values="100%;0%;100%" dur="6s" repeatCount="indefinite" />
+      </linearGradient>
+      <filter id="shadow">
+        <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#8BC7CA" flood-opacity="0.3" />
+      </filter>
+    </defs>
+    <!-- Background -->
+    <rect width="1200" height="300" fill="url(#bgGrad)" rx="16" />
+    <!-- Glowing bottom line -->
+    <rect x="50" y="280" width="1100" height="2.5" fill="url(#glowLine)" rx="1.5" />
+    
+    <!-- Avatar circle -->
+    <g transform="translate(60, 60)">
+      <circle cx="70" cy="70" r="50" fill="#0d1b2a" stroke="url(#glowLine)" stroke-width="3" />
+      <text x="70" y="75" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" dominant-baseline="central">👨‍💻</text>
+    </g>
+    
+    <!-- Name & title -->
+    <g transform="translate(140, 40)">
+      <text font-family="'JetBrains Mono', monospace" font-size="34" font-weight="700" fill="#ffffff" filter="url(#shadow)">
+        Abed Mouhamed Yassin
+      </text>
+      <text y="42" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="500" fill="#8BC7CA">
+        Full Stack Developer · Laravel &amp; React
+      </text>
+      <text y="78" font-family="Arial, sans-serif" font-size="15" fill="#8b949e">
+        Architecting scalable systems · Clean code · Reliable builds
+      </text>
+    </g>
+    
+    <!-- Tech icons row -->
+    <g transform="translate(140, 155)">
+      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" x="0" y="0" width="36" height="36" />
+      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" x="56" y="0" width="36" height="36" />
+      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" x="112" y="0" width="36" height="36" />
+      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" x="168" y="0" width="36" height="36" />
+      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" x="224" y="0" width="36" height="36" />
+      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" x="280" y="0" width="36" height="36" />
+      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" x="336" y="0" width="36" height="36" />
+    </g>
+    
+    <!-- Decorative dots -->
+    <circle cx="1080" cy="50" r="4.5" fill="#8BC7CA" opacity="0.4" />
+    <circle cx="1140" cy="120" r="3.5" fill="#64FFDA" opacity="0.3" />
+    <circle cx="1060" cy="230" r="5.5" fill="#00B4D8" opacity="0.2" />
+  </svg>
+
   <br><br>
-  
+
   <!-- Animated typing -->
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=1000&color=8BC7CA&center=true&vCenter=true&width=700&lines=Architecting+scalable+backend+systems;Crafting+modern%2C+responsive+interfaces;Clean+code.+Clear+thinking.+Reliable+builds." />
   <br><br>
@@ -13,7 +71,7 @@
   <a href="https://wa.me/21622314826"><img src="https://img.shields.io/badge/-WhatsApp-0d1117?style=for-the-badge&logo=whatsapp&logoColor=8BC7CA&labelColor=0d1117" /></a>
   <br><br>
 
-  <!-- Floating Badges -->
+  <!-- Metrics badges -->
   <table style="border: none; width: auto; margin: 0 auto; background: transparent;">
     <tr>
       <td style="border: none; padding: 0 12px;"><img src="https://img.shields.io/badge/status-open_to_work-8BC7CA?style=flat-square&labelColor=0d1117" /></td>
@@ -35,6 +93,7 @@
 
 <table width="100%" style="border-collapse: separate; border-spacing: 0 12px;">
   <tr>
+    <!-- Bio -->
     <td width="60%" valign="top" style="border: 1px solid rgba(139, 199, 202, 0.2); border-radius: 20px; padding: 28px; background: rgba(13, 17, 23, 0.7); backdrop-filter: blur(6px); box-shadow: 0 8px 40px rgba(0,0,0,0.5), inset 0 0 80px rgba(139,199,202,0.03);">
       <p style="font-size: 16px; line-height: 1.7; color: #c9d1d9;">
         I'm a Full Stack Developer who builds the unglamorous parts well: a data model that doesn't need to be redesigned six months in, an API that fails predictably, a UI that stays responsive under real usage — not just in the demo.
@@ -49,6 +108,7 @@
         <li style="margin-bottom: 8px;">🔧 <strong>Builder's curiosity</strong> — learn tools to solve problems, not for a resume</li>
       </ul>
     </td>
+    <!-- Info card -->
     <td width="40%" valign="top" style="border: 1px solid rgba(139, 199, 202, 0.2); border-radius: 20px; padding: 28px; background: rgba(13, 17, 23, 0.7); backdrop-filter: blur(6px); box-shadow: 0 8px 40px rgba(0,0,0,0.5), inset 0 0 80px rgba(139,199,202,0.03);">
       <table style="background: transparent; width: 100%;">
         <tr><td style="border: none; padding: 6px 0;"><strong>📍 Based</strong></td><td style="border: none; padding: 6px 0; text-align: right;">Tunisia</td></tr>
@@ -161,7 +221,7 @@
 <table width="100%" style="border-collapse: separate; border-spacing: 16px;">
   <tr>
     <!-- Project 1 -->
-    <td width="33%" valign="top" style="border: 1px solid rgba(139,199,202,0.2); border-top: 6px solid #8BC7CA; border-radius: 20px; padding: 24px; background: rgba(13,17,23,0.7); backdrop-filter: blur(4px); box-shadow: 0 8px 32px rgba(0,0,0,0.4), inset 0 0 60px rgba(139,199,202,0.02); transition: transform 0.2s;">
+    <td width="33%" valign="top" style="border: 1px solid rgba(139,199,202,0.2); border-top: 6px solid #8BC7CA; border-radius: 20px; padding: 24px; background: rgba(13,17,23,0.7); backdrop-filter: blur(4px); box-shadow: 0 8px 32px rgba(0,0,0,0.4), inset 0 0 60px rgba(139,199,202,0.02);">
       <h4 style="color: #8BC7CA; margin-top: 0; font-size: 20px;">⚛ React · API Platform</h4>
       <p style="color: #c9d1d9; font-size: 14px; line-height: 1.6;">Modern React app consuming REST APIs &amp; cloud services – dynamic, scalable UX.</p>
       <p>
@@ -177,7 +237,7 @@
       <a href="#" style="color: #8BC7CA; text-decoration: none; font-weight: 600;">Explore →</a>
     </td>
     <!-- Project 2 -->
-    <td width="33%" valign="top" style="border: 1px solid rgba(139,199,202,0.2); border-top: 6px solid #64FFDA; border-radius: 20px; padding: 24px; background: rgba(13,17,23,0.7); backdrop-filter: blur(4px); box-shadow: 0 8px 32px rgba(0,0,0,0.4), inset 0 0 60px rgba(139,199,202,0.02); transition: transform 0.2s;">
+    <td width="33%" valign="top" style="border: 1px solid rgba(139,199,202,0.2); border-top: 6px solid #64FFDA; border-radius: 20px; padding: 24px; background: rgba(13,17,23,0.7); backdrop-filter: blur(4px); box-shadow: 0 8px 32px rgba(0,0,0,0.4), inset 0 0 60px rgba(139,199,202,0.02);">
       <h4 style="color: #64FFDA; margin-top: 0; font-size: 20px;">🛒 E‑Commerce Platform</h4>
       <p style="color: #c9d1d9; font-size: 14px; line-height: 1.6;">Full‑stack e‑commerce with structured backend logic and Bootstrap frontend.</p>
       <p>
@@ -193,7 +253,7 @@
       <a href="#" style="color: #64FFDA; text-decoration: none; font-weight: 600;">Explore →</a>
     </td>
     <!-- Project 3 -->
-    <td width="33%" valign="top" style="border: 1px solid rgba(139,199,202,0.2); border-top: 6px solid #00B4D8; border-radius: 20px; padding: 24px; background: rgba(13,17,23,0.7); backdrop-filter: blur(4px); box-shadow: 0 8px 32px rgba(0,0,0,0.4), inset 0 0 60px rgba(139,199,202,0.02); transition: transform 0.2s;">
+    <td width="33%" valign="top" style="border: 1px solid rgba(139,199,202,0.2); border-top: 6px solid #00B4D8; border-radius: 20px; padding: 24px; background: rgba(13,17,23,0.7); backdrop-filter: blur(4px); box-shadow: 0 8px 32px rgba(0,0,0,0.4), inset 0 0 60px rgba(139,199,202,0.02);">
       <h4 style="color: #00B4D8; margin-top: 0; font-size: 20px;">🏨 Hotel Management</h4>
       <p style="color: #c9d1d9; font-size: 14px; line-height: 1.6;">End‑to‑end system for reservations, guest records, and admin operations.</p>
       <p>

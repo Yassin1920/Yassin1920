@@ -1,24 +1,37 @@
 <div align="center">
 
   <!-- ====== GRADIENT HEADER (no banner) ====== -->
-  <h1 style="font-size: 48px; font-weight: 800; margin: 0; background: linear-gradient(135deg, #8BC7CA, #64FFDA, #7B61FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: 1px;">
-    Abed Mouhamed Yassin
-  </h1>
-  <h3 style="font-size: 22px; font-weight: 400; color: #c9d1d9; margin: 4px 0 0; letter-spacing: 2px;">
-    <span style="color: #8BC7CA;">&lt;</span> Full Stack Developer <span style="color: #8BC7CA;">/&gt;</span>
-  </h3>
-  
-  <!-- Animated Typing (color cycling) -->
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=8BC7CA&center=true&vCenter=true&width=600&lines=Architecting+scalable+backends;Crafting+delightful+interfaces;Clean+code.+Clear+thinking.;Reliable+builds.+Happy+users." />
+  <div style="position: relative; display: inline-block; padding: 20px 40px; border-radius: 30px; background: rgba(13,17,23,0.4); backdrop-filter: blur(10px); border: 1px solid rgba(139,199,202,0.2); box-shadow: 0 0 60px rgba(139,199,202,0.1);">
+
+    <!-- Floating particles -->
+    <div style="position: absolute; top: -10px; left: 20px; width: 8px; height: 8px; border-radius: 50%; background: #8BC7CA; opacity: 0.6; box-shadow: 0 0 20px #8BC7CA;"></div>
+    <div style="position: absolute; top: 15px; right: -8px; width: 6px; height: 6px; border-radius: 50%; background: #64FFDA; opacity: 0.5; box-shadow: 0 0 20px #64FFDA;"></div>
+    <div style="position: absolute; bottom: 20px; left: -5px; width: 7px; height: 7px; border-radius: 50%; background: #7B61FF; opacity: 0.4; box-shadow: 0 0 20px #7B61FF;"></div>
+    <div style="position: absolute; bottom: -8px; right: 30px; width: 5px; height: 5px; border-radius: 50%; background: #FF6B6B; opacity: 0.5; box-shadow: 0 0 20px #FF6B6B;"></div>
+
+    <h1 style="font-size: 48px; font-weight: 800; margin: 0; background: linear-gradient(135deg, #8BC7CA, #64FFDA, #7B61FF, #FF6B6B); background-size: 300% 300%; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; animation: gradient-shift 4s ease-in-out infinite; letter-spacing: 2px;">
+      Abed Mouhamed Yassin
+    </h1>
+    <h3 style="font-size: 22px; font-weight: 400; color: #c9d1d9; margin: 4px 0 0; letter-spacing: 3px;">
+      <span style="color: #8BC7CA; animation: blink 1.5s step-end infinite;">&lt;</span> 
+      Full Stack Developer 
+      <span style="color: #8BC7CA; animation: blink 1.5s step-end infinite 0.5s;">/&gt;</span>
+    </h3>
+  </div>
+
+  <br>
+
+  <!-- Animated Typing -->
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=8BC7CA&center=true&vCenter=true&width=650&lines=Architecting+scalable+backends;Crafting+delightful+interfaces;Clean+code.+Clear+thinking.;Reliable+builds.+Happy+users.;Let's+build+something+amazing!" />
   <br><br>
 
-  <!-- Social Badges with icons -->
+  <!-- Social Badges -->
   <a href="mailto:mouhamedyassin6@gmail.com"><img src="https://img.shields.io/badge/-Email-0d1117?style=for-the-badge&logo=gmail&logoColor=8BC7CA&labelColor=0d1117" /></a>
   <a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/"><img src="https://img.shields.io/badge/-LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=8BC7CA&labelColor=0d1117" /></a>
   <a href="https://wa.me/21622314826"><img src="https://img.shields.io/badge/-WhatsApp-0d1117?style=for-the-badge&logo=whatsapp&logoColor=8BC7CA&labelColor=0d1117" /></a>
   <br><br>
 
-  <!-- Status & Metrics (colorful) -->
+  <!-- Status & Metrics -->
   <table style="border: none; width: auto; margin: 0 auto; background: transparent;">
     <tr>
       <td style="border: none; padding: 0 10px;"><img src="https://img.shields.io/badge/status-open_to_work-8BC7CA?style=flat-square&labelColor=0d1117" /></td>
@@ -29,9 +42,9 @@
   </table>
 </div>
 
-<!-- Glowing Divider (rainbow) -->
+<!-- Animated Divider -->
 <p align="center">
-  <span style="display: inline-block; width: 70%; height: 2.5px; background: linear-gradient(90deg, transparent, #8BC7CA, #64FFDA, #7B61FF, #FF6B6B, transparent); border-radius: 2px;"></span>
+  <span style="display: inline-block; width: 75%; height: 3px; background: linear-gradient(90deg, transparent, #8BC7CA, #64FFDA, #7B61FF, #FF6B6B, #8BC7CA, transparent); background-size: 300% 100%; border-radius: 3px; animation: shimmer-wave 4s linear infinite;"></span>
 </p>
 
 ---
@@ -40,7 +53,6 @@
 
 <table width="100%" style="border-collapse: separate; border-spacing: 0 16px;">
   <tr>
-    <!-- Bio (with quote style) -->
     <td width="60%" valign="top" style="border: 1px solid rgba(139,199,202,0.2); border-left: 4px solid #8BC7CA; border-radius: 12px; padding: 24px; background: rgba(13,17,23,0.6); backdrop-filter: blur(4px);">
       <p style="font-size: 16px; line-height: 1.8; color: #c9d1d9; font-style: italic; margin: 0;">
         “I build the unglamorous parts well – data models that stay stable, APIs that fail predictably, and UIs that perform under real load.”
@@ -54,14 +66,13 @@
         <span style="display: inline-block; background: rgba(123,97,255,0.12); padding: 4px 14px; border-radius: 30px; color: #7B61FF; font-weight: 500;">🔧 Curious builder</span>
       </div>
     </td>
-    <!-- Quick Facts (with glowing border) -->
     <td width="40%" valign="top" style="border: 1px solid rgba(139,199,202,0.2); border-radius: 12px; padding: 24px; background: rgba(13,17,23,0.6); backdrop-filter: blur(4px); box-shadow: 0 0 30px rgba(139,199,202,0.05);">
       <table style="background: transparent; width: 100%;">
-        <tr><td style="border: none; padding: 6px 0;"><strong style="color: #8b949e;">📍 Based</strong></td><td style="border: none; padding: 6px 0; text-align: right; color: #c9d1d9;">Tunisia</td></tr>
+        <tr><td style="border: none; padding: 6px 0;"><strong style="color: #8b949e;">📍 Based</strong></td><td style="border: none; padding: 6px 0; text-align: right; color: #c9d1d9;">🇹🇳 Tunisia</td></tr>
         <tr><td style="border: none; padding: 6px 0;"><strong style="color: #8b949e;">🧰 Stack</strong></td><td style="border: none; padding: 6px 0; text-align: right; color: #c9d1d9;">PHP · JavaScript</td></tr>
         <tr><td style="border: none; padding: 6px 0;"><strong style="color: #8b949e;">⚡ Focus</strong></td><td style="border: none; padding: 6px 0; text-align: right; color: #c9d1d9;">Backend + Frontend</td></tr>
         <tr><td style="border: none; padding: 6px 0;"><strong style="color: #8b949e;">📖 Learning</strong></td><td style="border: none; padding: 6px 0; text-align: right; color: #c9d1d9;">System Design · Cloud</td></tr>
-        <tr><td style="border: none; padding: 6px 0;"><strong style="color: #8b949e;">🚀 Status</strong></td><td style="border: none; padding: 6px 0; text-align: right;"><span style="color: #8BC7CA; font-weight: 700;">Open to work</span></td></tr>
+        <tr><td style="border: none; padding: 6px 0;"><strong style="color: #8b949e;">🚀 Status</strong></td><td style="border: none; padding: 6px 0; text-align: right;"><span style="color: #8BC7CA; font-weight: 700; animation: pulse-text 2s ease-in-out infinite;">● Open to work</span></td></tr>
       </table>
       <hr style="border-color: rgba(139,199,202,0.1); margin: 16px 0;">
       <div align="center" style="display: flex; justify-content: space-around; color: #c9d1d9;">
@@ -80,7 +91,7 @@
 <div align="center">
   <table style="border-collapse: separate; border-spacing: 16px; width: 100%;">
     <tr>
-      <td style="border: 1px solid rgba(139,199,202,0.2); border-radius: 16px; padding: 20px; background: rgba(13,17,23,0.5); text-align: center; width: 25%; transition: transform 0.2s; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+      <td style="border: 1px solid rgba(139,199,202,0.2); border-radius: 16px; padding: 20px; background: rgba(13,17,23,0.5); text-align: center; width: 25%; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
         <img src="https://skillicons.dev/icons?i=php,laravel&theme=dark" width="70" /><br>
         <strong style="color: #8BC7CA; font-size: 18px;">Backend</strong><br>
         <span style="color: #8b949e; font-size: 13px;">PHP · Laravel · Symfony</span>
@@ -171,8 +182,11 @@
         <li>Fully responsive</li>
       </ul>
       <div style="display: flex; gap: 12px; margin-top: 12px;">
-        <a href="#" style="color: #8BC7CA; text-decoration: none; font-weight: 600;">🔗 Live Demo</a>
-        <a href="#" style="color: #8b949e; text-decoration: none;">Source →</a>
+        <a href="https://github.com/Yassin1920/react-api-platform" target="_blank" style="color: #8BC7CA; text-decoration: none; font-weight: 600;">🔗 Live Demo</a>
+        <a href="https://github.com/Yassin1920/react-api-platform" target="_blank" style="color: #8b949e; text-decoration: none; display: flex; align-items: center; gap: 4px;">
+          <svg height="16" viewBox="0 0 16 16" width="16" style="fill: #8b949e;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+          Source
+        </a>
       </div>
     </td>
     <!-- Project 2 -->
@@ -193,8 +207,11 @@
         <li>Structured schema</li>
       </ul>
       <div style="display: flex; gap: 12px; margin-top: 12px;">
-        <a href="#" style="color: #64FFDA; text-decoration: none; font-weight: 600;">🔗 Live Demo</a>
-        <a href="#" style="color: #8b949e; text-decoration: none;">Source →</a>
+        <a href="https://github.com/Yassin1920/ecommerce-platform" target="_blank" style="color: #64FFDA; text-decoration: none; font-weight: 600;">🔗 Live Demo</a>
+        <a href="https://github.com/Yassin1920/ecommerce-platform" target="_blank" style="color: #8b949e; text-decoration: none; display: flex; align-items: center; gap: 4px;">
+          <svg height="16" viewBox="0 0 16 16" width="16" style="fill: #8b949e;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+          Source
+        </a>
       </div>
     </td>
     <!-- Project 3 -->
@@ -215,8 +232,11 @@
         <li>Database‑driven</li>
       </ul>
       <div style="display: flex; gap: 12px; margin-top: 12px;">
-        <a href="#" style="color: #7B61FF; text-decoration: none; font-weight: 600;">🔗 Live Demo</a>
-        <a href="#" style="color: #8b949e; text-decoration: none;">Source →</a>
+        <a href="https://github.com/Yassin1920/hotel-management" target="_blank" style="color: #7B61FF; text-decoration: none; font-weight: 600;">🔗 Live Demo</a>
+        <a href="https://github.com/Yassin1920/hotel-management" target="_blank" style="color: #8b949e; text-decoration: none; display: flex; align-items: center; gap: 4px;">
+          <svg height="16" viewBox="0 0 16 16" width="16" style="fill: #8b949e;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+          Source
+        </a>
       </div>
     </td>
   </tr>
@@ -233,7 +253,6 @@
     <span style="background: rgba(123,97,255,0.15); padding: 6px 18px; border-radius: 30px; color: #7B61FF; font-weight: 500;">☁️ Cloud Deployment</span>
     <span style="background: rgba(255,107,107,0.15); padding: 6px 18px; border-radius: 30px; color: #FF6B6B; font-weight: 500;">🧪 Microservices</span>
   </div>
-  <!-- Progress bar for current project -->
   <div style="margin-top: 18px; text-align: left; color: #8b949e; font-size: 14px;">
     <span>Building a microservices demo with Laravel &amp; React</span>
     <div style="background: #161b22; border-radius: 30px; height: 8px; width: 100%; margin-top: 6px; overflow: hidden;">
@@ -252,7 +271,7 @@
 
 <div align="center" style="border: 1px solid rgba(139,199,202,0.2); border-radius: 30px; padding: 44px 20px; background: rgba(13,17,23,0.5); backdrop-filter: blur(8px); margin-top: 28px; box-shadow: 0 0 60px rgba(139,199,202,0.05);">
   <p style="font-size: 22px; color: #c9d1d9; margin: 0 0 8px;">
-    Let’s <strong style="color: #8BC7CA;">build something</strong> amazing together.
+    Let's <strong style="color: #8BC7CA;">build something</strong> amazing together.
   </p>
   <p style="color: #8b949e; font-size: 16px; margin-bottom: 24px;">
     Open to Full Stack roles &amp; freelance collaborations.
@@ -266,3 +285,29 @@
   <br><br>
   <sub style="color: #8b949e; font-size: 13px;">© Abed Mouhamed Yassin — Built with clean architecture and continuous learning.</sub>
 </div>
+
+---
+
+<!-- ====== CSS ANIMATIONS ====== -->
+<style>
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes shimmer-wave {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 300% 0%; }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+@keyframes pulse-text {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+</style>

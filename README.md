@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abed Mouhamed Yassin - Full Stack Developer</title>
-    <!-- Font Awesome 6 (gratuit) -->
+    <!-- Font Awesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
     <style>
-        /* ---------- RESET & BASE ---------- */
+        /* --- RESET & BASE --- */
         * {
             margin: 0;
             padding: 0;
@@ -17,8 +17,8 @@
         }
         body {
             font-family: 'Inter', sans-serif;
-            background: #f8fafc;
-            color: #0b1120;
+            background: #f8f8f8;
+            color: #010112;
             line-height: 1.6;
             padding: 2rem 1.5rem;
         }
@@ -40,10 +40,9 @@
                 border-radius: 1.5rem;
             }
         }
-        /* ---------- TYPOGRAPHY ---------- */
-        h1,
-        h2,
-        h3 {
+
+        /* --- TYPOGRAPHY --- */
+        h1, h2, h3 {
             font-weight: 700;
             letter-spacing: -0.02em;
         }
@@ -77,10 +76,10 @@
         }
         .badge-role {
             display: inline-block;
-            background: #dbeafe;
+            background: #bfeafc;
             color: #1e4f8a;
             font-weight: 600;
-            font-size: 1rem;
+            font-size: 1.2rem;
             padding: 0.3rem 1.2rem;
             border-radius: 40px;
             letter-spacing: 0.3px;
@@ -93,7 +92,8 @@
             margin: 0.8rem auto 0;
             font-weight: 400;
         }
-        /* ---------- HEADER / PROFILE ---------- */
+
+        /* --- HEADER / PROFILE --- */
         .profile-header {
             text-align: center;
             margin-bottom: 2rem;
@@ -101,7 +101,7 @@
         .profile-header .avatar-icon {
             font-size: 4.2rem;
             color: #2563eb;
-            background: #eef2ff;
+            background: #e2f1ff;
             width: 90px;
             height: 90px;
             display: flex;
@@ -109,7 +109,7 @@
             justify-content: center;
             border-radius: 50%;
             margin: 0 auto 0.8rem;
-            box-shadow: 0 8px 20px rgba(37, 99, 235, 0.10);
+            box-shadow: 0 8px 20px rgba(37, 99, 235, 0.1);
         }
         .divider {
             width: 70px;
@@ -118,17 +118,19 @@
             border-radius: 4px;
             margin: 1.2rem auto 1rem;
         }
-        /* ---------- ABOUT ---------- */
+
+        /* --- ABOUT --- */
         .about-text {
             background: #f1f5f9;
             padding: 1.5rem 2rem;
             border-radius: 1.5rem;
             border-left: 6px solid #2563eb;
-            font-size: 1rem;
+            font-size: 1.2rem;
             color: #1e293b;
             margin: 1rem 0 0.2rem;
         }
-        /* ---------- SKILLS GRID ---------- */
+
+        /* --- SKILLS GRID --- */
         .skills-grid {
             display: flex;
             flex-wrap: wrap;
@@ -158,7 +160,7 @@
         }
         .skill-label span {
             background: #f1f5f9;
-            padding: 0.2rem 1rem;
+            padding: 0.2rem 1.5rem;
             border-radius: 30px;
             font-size: 0.85rem;
             font-weight: 500;
@@ -184,7 +186,8 @@
             color: #2563eb;
             width: 1.4rem;
         }
-        /* ---------- PROJECT CARDS ---------- */
+
+        /* --- PROJECT CARDS --- */
         .project-card {
             background: #fafcff;
             border: 1px solid #e9edf2;
@@ -196,7 +199,7 @@
         .project-card:hover {
             box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.06);
             transform: translateY(-4px);
-            border-color: #d0d9e6;
+            border-color: #2563eb;
         }
         .project-card h3 {
             font-size: 1.5rem;
@@ -243,7 +246,8 @@
             font-size: 0.8rem;
             opacity: 0.8;
         }
-        /* ---------- CONTACT ---------- */
+
+        /* --- CONTACT --- */
         .contact-links {
             display: flex;
             flex-wrap: wrap;
@@ -282,6 +286,8 @@
         .contact-links a.linkedin i {
             color: #0a66c2;
         }
+
+        /* --- FOOTER --- */
         .footer-note {
             text-align: center;
             margin-top: 2.8rem;
@@ -295,7 +301,8 @@
             color: #2563eb;
             margin: 0 0.2rem;
         }
-        /* ---------- RESPONSIVE FINE-TUNE ---------- */
+
+        /* --- RESPONSIVE --- */
         @media (max-width: 480px) {
             h1 {
                 font-size: 2rem;

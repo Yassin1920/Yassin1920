@@ -1,174 +1,177 @@
 <div align="center">
 
-<img width="100%" src="./assets/banner.svg" alt="Abed Mouhamed Yassin — Full Stack Developer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:0f2027&height=220&section=header&text=Abed%20Mouhamed%20Yassin&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Laravel%20%C2%B7%20React%20%C2%B7%20PHP&descSize=18&descAlignY=58&animation=fadeIn" />
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2C5364&center=true&vCenter=true&width=600&lines=Building+scalable+web+applications;Clean+architecture+%7C+Robust+backends;Laravel+%2B+React+%2B+PHP+Developer;Always+learning%2C+always+shipping" />
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=8BC7CA&center=true&vCenter=true&width=620&lines=Architecting+scalable+backend+systems;Crafting+modern%2C+responsive+interfaces;Clean+code.+Clear+thinking.+Reliable+builds." />
+<a href="mailto:mouhamedyassin6@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://wa.me/21622314826"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
-<br><br>
+<br>
 
-<a href="mailto:mouhamedyassin6@gmail.com"><img src="https://img.shields.io/badge/-Email-0d1117?style=for-the-badge&logo=gmail&logoColor=8BC7CA" /></a>
-<a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/"><img src="https://img.shields.io/badge/-LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=8BC7CA" /></a>
-<a href="https://wa.me/21622314826"><img src="https://img.shields.io/badge/-WhatsApp-0d1117?style=for-the-badge&logo=whatsapp&logoColor=8BC7CA" /></a>
-
-<sub><img src="https://img.shields.io/badge/status-open_to_work-8BC7CA?style=flat-square&labelColor=0d1117" /> &nbsp; <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=flat-square&color=8BC7CA&labelColor=0d1117&label=profile+views" /></sub>
+<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=2c5364&label=PROFILE+VIEWS" />
 
 </div>
 
 <br>
 
-<p align="center"><sub>▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁</sub></p>
+<img width="100%" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
-## `01` Profile
+<br>
 
-<table width="100%">
-<tr>
-<td width="62%" valign="top">
+## 🧭 About Me
 
-Full Stack Developer focused on marrying **solid backend architecture** with **modern, responsive frontends**. I care about systems that are still easy to reason about six months later — not just code that works today.
-
-I gravitate toward structured problem-solving: mapping the data model before the UI, thinking through edge cases before writing the controller, and treating maintainability as a feature, not an afterthought.
-
-</td>
-<td width="38%" valign="top">
+<img align="right" width="320" src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif">
 
 ```yaml
-role:      Full Stack Developer
-stack:     PHP · JavaScript
-focus:     Backend + Frontend
-currently: Laravel + React apps
-exploring: System design patterns
-status:    Open to work
+name:        Abed Mouhamed Yassin
+role:        Full Stack Developer
+focus:       Backend architecture · Modern frontends
+languages:   [PHP, JavaScript]
+frameworks:  [Laravel, Symfony, React, Bootstrap]
+currently:   Building scalable full-stack applications
+learning:    Advanced system design & clean architecture
+fun_fact:    I enjoy turning complex problems into
+             simple, well-structured systems
 ```
 
-</td>
-</tr>
-</table>
+<br clear="right">
 
 <br>
 
-## `02` Stack
+## ⚙️ Tech Arsenal
 
-<table width="100%">
-<tr><td width="140" valign="middle"><b>Frontend</b></td><td><img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap&theme=dark" /></td></tr>
-<tr><td width="140" valign="middle"><b>Backend</b></td><td><img src="https://skillicons.dev/icons?i=php,laravel,symfony&theme=dark" /></td></tr>
-<tr><td width="140" valign="middle"><b>Databases</b></td><td><img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,oracle&theme=dark" /></td></tr>
-<tr><td width="140" valign="middle"><b>Tooling</b></td><td><img src="https://skillicons.dev/icons?i=git,github,docker,vscode,postman&theme=dark" /></td></tr>
-</table>
+<div align="center">
 
-<br>
+### Frontend
+<img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap&theme=dark" />
 
-## `03` Proficiency
+### Backend
+<img src="https://skillicons.dev/icons?i=php,laravel,symfony&theme=dark" />
 
-<table width="100%">
-<tr><td width="180">PHP / Laravel</td><td>████████████████████░░░░&nbsp; 82%</td></tr>
-<tr><td width="180">JavaScript / React</td><td>████████████████░░░░░░░░&nbsp; 68%</td></tr>
-<tr><td width="180">SQL / Database Design</td><td>██████████████████░░░░░░&nbsp; 75%</td></tr>
-<tr><td width="180">System Architecture</td><td>██████████████░░░░░░░░░░&nbsp; 60%</td></tr>
-</table>
+### Databases
+<img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,oracle&theme=dark" />
+
+### Tools & Workflow
+<img src="https://skillicons.dev/icons?i=git,github,docker,vscode,postman&theme=dark" />
+
+</div>
 
 <br>
 
-## `04` Selected Work
+## 📈 GitHub Analytics
 
-<table width="100%">
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
+
+<img width="60%" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" />
+
+<img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night&hide_border=true" />
+
+</div>
+
+> ⚡ Replace `YOUR_GITHUB_USERNAME` in every widget URL above with your real GitHub username to bring these to life.
+
+<br>
+
+## 🏆 Featured Projects
+
+<table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**⚛ React · API Platform**
+### ⚛️ React Web Application
+**API Integration & Cloud Services**
 
-Modern React application consuming external REST APIs and cloud services for a dynamic, scalable UX.
+Modern React app consuming external REST APIs with a dynamic, scalable UI.
 
 `React` `JavaScript` `REST API`
 
-— Reusable component architecture
-— Live API data consumption
-— Fully responsive design
+✦ Reusable component architecture
+✦ Live API data consumption
+✦ Fully responsive design
 
-**[View Repository →](#)**
+[`→ View Repo`](#)
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**🛒 E-Commerce Platform**
+### 🖥️ E-Commerce Platform
+**Full-Stack Traditional Stack**
 
-Full-stack e-commerce system with structured backend logic and a responsive Bootstrap frontend.
+Full CRUD e-commerce system with structured backend logic and a responsive UI.
 
 `PHP` `MySQL` `Bootstrap`
 
-— Complete CRUD operations
-— Server-side processing
-— Structured schema design
+✦ Complete CRUD operations
+✦ Server-side processing
+✦ Structured database design
 
-**[View Repository →](#)**
+[`→ View Repo`](#)
 
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**🏨 Hotel Management**
+### 🏨 Hotel Management System
+**Operations & Admin Dashboard**
 
-End-to-end system for reservations, guest records, and administrative operations.
+Web system managing reservations, guests, and admin operations end to end.
 
 `PHP` `MySQL` `Bootstrap`
 
-— Reservation workflow
-— Secure admin dashboard
-— Database-driven design
+✦ Reservation management
+✦ Secure admin dashboard
+✦ Database-driven architecture
 
-**[View Repository →](#)**
+[`→ View Repo`](#)
+
+</td>
+<td width="50%" valign="top">
+
+### ➕ Your Next Project
+**Add a new build here**
+
+Showcase your most recent or most impressive work — recruiters look here first.
+
+`Your` `Stack` `Here`
+
+✦ Add 2–3 standout features
+✦ Link the live demo
+✦ Add a screenshot or GIF
+
+[`→ View Repo`](#)
 
 </td>
 </tr>
 </table>
 
+> 💡 **Designer's note:** replace the `#` links with your real repo URLs, and drop a screenshot or GIF under each card title — an actual image of the product is the single biggest driver of recruiter clicks on a README.
+
 <br>
 
-## `05` Analytics
+## 🌐 Get In Touch
 
 <div align="center">
 
-<img width="48.5%" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=8BC7CA&icon_color=8BC7CA&text_color=c9d1d9&count_private=true" />
-<img width="48.5%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=8BC7CA&text_color=c9d1d9" />
+I'm open to **Full Stack Developer** opportunities — let's build something great together.
 
-<img width="98.5%" src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&bg_color=0d1117&color=8BC7CA&line=8BC7CA&point=ffffff&hide_border=true" />
-
-</div>
-
-<br>
-
-## `06` Contact
-
-<div align="center">
-
-I'm currently open to **Full Stack Developer** roles and freelance collaborations.
-
-<a href="mailto:mouhamedyassin6@gmail.com"><img src="https://img.shields.io/badge/-Start%20a%20conversation-8BC7CA?style=for-the-badge&logo=gmail&logoColor=0d1117" /></a>
+<a href="mailto:mouhamedyassin6@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://wa.me/21622314826"><img src="https://img.shields.io/badge/WhatsApp-Message-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
 <br><br>
 
-<a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/"><img src="https://img.shields.io/badge/-LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=8BC7CA" /></a>
-<a href="https://wa.me/21622314826"><img src="https://img.shields.io/badge/-WhatsApp-0d1117?style=flat-square&logo=whatsapp&logoColor=8BC7CA" /></a>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:0f2027&height=120&section=footer" />
 
-<br><br>
-
-<sub>© Abed Mouhamed Yassin — Built with clean architecture and continuous learning.</sub>
+<sub>Designed with care · Built with clean architecture, modern technologies, and continuous learning.</sub>
 
 </div>
-
-<br>
-
----
-
-<details>
-<summary><b>📋 Setup checklist — do this before pushing</b></summary>
-<br>
-
-1. Push the `assets/banner.svg` file to your repo (same folder as this README) — it's a custom-designed banner, not a third-party service, so it needs to live in your repo.
-2. Find and replace every `YOUR_GITHUB_USERNAME` with your real GitHub username (stats widgets won't render without this).
-3. Replace the `#` project links with your real repo URLs.
-4. Add one screenshot or GIF above each project card title — this is the single biggest driver of recruiter engagement.
-5. Adjust the proficiency bars in `03` to honestly reflect your level.
-6. Optional: create a pinned-repo social preview image sized 1280×640 for extra polish — ask if you'd like one designed to match this palette.
-
-</details>

@@ -20,7 +20,7 @@
 <img src="https://img.shields.io/badge/LINKEDIN-8BC7CA?style=for-the-badge&logo=linkedin&logoColor=0B1120"/>
 </a>
 &nbsp;
-<a href="https://github.com/YassinAbed">
+<a href="https://github.com/Yassin1920">
 <img src="https://img.shields.io/badge/GITHUB-8BC7CA?style=for-the-badge&logo=github&logoColor=0B1120"/>
 </a>
 
@@ -464,7 +464,7 @@ def create_software(problem):
 <img src="https://img.shields.io/badge/LINKEDIN-8BC7CA?style=for-the-badge&logo=linkedin&logoColor=0B1120"/>
 </a>
 
-<a href="https://github.com/YassinAbed">
+<a href="https://github.com/Yassin1920">
 <img src="https://img.shields.io/badge/GITHUB-8BC7CA?style=for-the-badge&logo=github&logoColor=0B1120"/>
 </a>
 

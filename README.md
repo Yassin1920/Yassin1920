@@ -1,229 +1,62 @@
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel0.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=260&section=header&text=ABED%20MOUHAMED%20YASSIN&fontSize=42&fontColor=ffffff&fontAlignY=42&desc=FULL%20STACK%20DEVELOPER&descSize=16&descAlignY=58&animation=fadeIn&fontFamily=monospace" />
-
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2800&pause=900&color=8BC7CA&center=true&vCenter=true&width=650&lines=Architecting+scalable+backend+systems;Crafting+modern%2C+responsive+interfaces;Laravel+%C2%B7+Symfony+%C2%B7+React+%C2%B7+PHP;Clean+code.+Clear+thinking.+Reliable+builds." />
-
-<br><br>
-
-<a href="mailto:mouhamedyassin6@gmail.com">
-  <img src="https://custom-icon-badges.demolab.com/badge/Email-12242b?style=for-the-badge&logo=mail&logoColor=8BC7CA&labelColor=0d1117" />
-</a>
-<a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/">
-  <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-12242b?style=for-the-badge&logo=linkedin&logoColor=8BC7CA&labelColor=0d1117" />
-</a>
-<a href="https://wa.me/21622314826">
-  <img src="https://custom-icon-badges.demolab.com/badge/WhatsApp-12242b?style=for-the-badge&logo=whatsapp&logoColor=8BC7CA&labelColor=0d1117" />
-</a>
-
-<br><br>
-
-<img src="https://img.shields.io/badge/status-open_to_work-8BC7CA?style=flat-square&labelColor=0d1117" />
-<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=flat-square&color=8BC7CA&labelColor=0d1117&label=views" />
-
-</div>
-
-<br>
-
-<img width="100%" height="2" src="https://capsule-render.vercel0.vercel.app/api?type=rect&color=0:12242b,100:0d1117&height=2" />
-
-<br>
-
-## `01` — Profile
-
-<table width="100%">
-<tr>
-<td width="60%" valign="top">
-
-Full Stack Developer focused on marrying **solid backend architecture** with **modern, responsive frontends**. I care about systems that are easy to reason about six months later — not just code that works today.
-
-I gravitate toward structured problem-solving: mapping the data model before the UI, thinking through edge cases before writing the controller, and treating maintainability as a feature, not an afterthought.
-
-**Currently:** building full-stack applications on Laravel + React
-**Exploring:** advanced system design & clean architecture patterns
-**Collaboration style:** clear communication, documented decisions, no surprises
-
-</td>
-<td width="40%" valign="top">
-
-```
-┌─────────────────────────┐
-│  location   Tunisia     │
-│  role       Full Stack  │
-│  stack      PHP / JS    │
-│  focus      Backend +   │
-│             Frontend    │
-│  status     Open to     │
-│             work        │
-└─────────────────────────┘
-```
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## `02` — Stack
-
-<table width="100%">
-<tr><td>
-
-**Frontend**
-`HTML5` `CSS3` `JavaScript` `React` `Bootstrap`
-
-<img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap&theme=dark" />
-
-</td></tr>
-<tr><td>
-
-**Backend**
-`PHP` `Laravel` `Symfony`
-
-<img src="https://skillicons.dev/icons?i=php,laravel,symfony&theme=dark" />
-
-</td></tr>
-<tr><td>
-
-**Data Layer**
-`MySQL` `PostgreSQL` `MongoDB` `Oracle DB`
-
-<img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,oracle&theme=dark" />
-
-</td></tr>
-<tr><td>
-
-**Tooling**
-`Git` `GitHub` `Docker` `VS Code` `Postman`
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,vscode,postman&theme=dark" />
-
-</td></tr>
-</table>
-
-<br>
-
-## `03` — Proficiency
-
-<table width="100%">
-<tr><td width="140">PHP / Laravel</td><td>
-
-`████████████████████░░░░` 82%
-
-</td></tr>
-<tr><td width="140">JavaScript / React</td><td>
-
-`████████████████░░░░░░░░` 68%
-
-</td></tr>
-<tr><td width="140">SQL / Database Design</td><td>
-
-`██████████████████░░░░░░` 75%
-
-</td></tr>
-<tr><td width="140">System Architecture</td><td>
-
-`██████████████░░░░░░░░░░` 60%
-
-</td></tr>
-</table>
-
-<sub>Self-assessed, updated periodically. Adjust the bars to reflect where you honestly are.</sub>
-
-<br>
-
-## `04` — Selected Work
-
-<table width="100%">
-<tr>
-<td width="33%" valign="top">
-
-### ⚛ &nbsp;React · API Platform
-
-Modern React application consuming external REST APIs and cloud services for a dynamic, scalable UX.
-
-`React` `JavaScript` `REST API`
-
-— Reusable component architecture
-— Live API data consumption
-— Fully responsive design
-
-**[View Repository →](#)**
-
-</td>
-<td width="33%" valign="top">
-
-### 🛒 &nbsp;E-Commerce Platform
-
-Full-stack e-commerce system with structured backend logic and a responsive Bootstrap frontend.
-
-`PHP` `MySQL` `Bootstrap`
-
-— Complete CRUD operations
-— Server-side processing
-— Structured schema design
-
-**[View Repository →](#)**
-
-</td>
-<td width="33%" valign="top">
-
-### 🏨 &nbsp;Hotel Management
-
-End-to-end system for reservations, guest records, and administrative operations.
-
-`PHP` `MySQL` `Bootstrap`
-
-— Reservation workflow
-— Secure admin dashboard
-— Database-driven design
-
-**[View Repository →](#)**
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-<sub>⚡ Swap the <code>#</code> links for real repo URLs and add a screenshot or GIF above each title — visuals are what get a recruiter to actually click in.</sub>
-</div>
-
-<br>
-
-## `05` — Analytics
-
-<div align="center">
-
-<img width="48.5%" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=8BC7CA&icon_color=8BC7CA&text_color=c9d1d9&count_private=true" />
-<img width="48.5%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=8BC7CA&text_color=c9d1d9" />
-
-<img width="98.5%" src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&bg_color=0d1117&color=8BC7CA&line=8BC7CA&point=ffffff&hide_border=true" />
-
-</div>
-
-<br>
-
-## `06` — Let's Build Something
-
-<div align="center">
-
-I'm currently open to **Full Stack Developer** roles and freelance collaborations.
-
-<a href="mailto:mouhamedyassin6@gmail.com">
-  <img src="https://custom-icon-badges.demolab.com/badge/Start_a_conversation-8BC7CA?style=for-the-badge&logo=mail&logoColor=0d1117&labelColor=8BC7CA" />
-</a>
-
-<br><br>
-
-<a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-12242b?style=flat-square&logo=linkedin&logoColor=8BC7CA&labelColor=0d1117" /></a>
-<a href="https://wa.me/21622314826"><img src="https://custom-icon-badges.demolab.com/badge/WhatsApp-12242b?style=flat-square&logo=whatsapp&logoColor=8BC7CA&labelColor=0d1117" /></a>
-
-<br><br>
-
-<img width="100%" src="https://capsule-render.vercel0.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=140&section=footer" />
-
-<sub>© Abed Mouhamed Yassin · Built with clean architecture and continuous learning.</sub>
-
-</div>
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e14"/>
+      <stop offset="55%" stop-color="#0d1b22"/>
+      <stop offset="100%" stop-color="#0a0e14"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8BC7CA" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8BC7CA" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#8BC7CA" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#8BC7CA" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+
+  <!-- corner brackets -->
+  <g stroke="#8BC7CA" stroke-width="2" fill="none" opacity="0.65">
+    <path d="M 30 20 L 30 50 M 30 20 L 60 20"/>
+    <path d="M 1170 20 L 1170 50 M 1170 20 L 1140 20"/>
+    <path d="M 30 300 L 30 270 M 30 300 L 60 300"/>
+    <path d="M 1170 300 L 1170 270 M 1170 300 L 1140 300"/>
+  </g>
+
+  <!-- eyebrow -->
+  <text x="600" y="88" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" letter-spacing="6" fill="#8BC7CA" text-anchor="middle" opacity="0.85">FULL&#160;STACK&#160;DEVELOPER</text>
+
+  <!-- name -->
+  <text x="600" y="160" font-family="'Segoe UI', Arial, sans-serif" font-size="56" font-weight="700" fill="#eef4f4" text-anchor="middle" letter-spacing="1">Abed Mouhamed Yassin</text>
+
+  <!-- accent rule -->
+  <rect x="450" y="188" width="300" height="2" fill="url(#accent)"/>
+
+  <!-- tagline -->
+  <text x="600" y="224" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" fill="#9fb4b6" text-anchor="middle" opacity="0.9">Laravel&#160;&#183;&#160;Symfony&#160;&#183;&#160;React&#160;&#183;&#160;PHP&#160;&#183;&#160;MySQL</text>
+
+  <!-- stack pills -->
+  <g font-family="'JetBrains Mono', 'Courier New', monospace" font-size="12" fill="#8BC7CA">
+    <g transform="translate(600,258)">
+      <g transform="translate(-330,0)">
+        <rect x="-42" y="-16" width="84" height="26" rx="13" fill="none" stroke="#8BC7CA" stroke-opacity="0.4"/>
+        <text x="0" y="2" text-anchor="middle">BACKEND</text>
+      </g>
+      <g transform="translate(-140,0)">
+        <rect x="-46" y="-16" width="92" height="26" rx="13" fill="none" stroke="#8BC7CA" stroke-opacity="0.4"/>
+        <text x="0" y="2" text-anchor="middle">FRONTEND</text>
+      </g>
+      <g transform="translate(60,0)">
+        <rect x="-52" y="-16" width="104" height="26" rx="13" fill="none" stroke="#8BC7CA" stroke-opacity="0.4"/>
+        <text x="0" y="2" text-anchor="middle">DATABASES</text>
+      </g>
+      <g transform="translate(280,0)">
+        <rect x="-58" y="-16" width="116" height="26" rx="13" fill="none" stroke="#8BC7CA" stroke-opacity="0.4"/>
+        <text x="0" y="2" text-anchor="middle">SYSTEM DESIGN</text>
+      </g>
+    </g>
+  </g>
+</svg>

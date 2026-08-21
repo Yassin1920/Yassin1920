@@ -1,62 +1,67 @@
 <div align="center">
-  <!-- ====== EMBEDDED SVG BANNER (no external file needed) ====== -->
-  <svg width="100%" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- ====== PROFESSIONAL SVG BANNER (no external file) ====== -->
+  <svg width="100%" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
     <defs>
-      <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#0a0f1a" />
-        <stop offset="50%" stop-color="#0d1b2a" />
-        <stop offset="100%" stop-color="#0a0f1a" />
+      <!-- Background gradient -->
+      <linearGradient id="bgPro" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#0a0e17" />
+        <stop offset="50%" stop-color="#0f1a2e" />
+        <stop offset="100%" stop-color="#0a0e17" />
       </linearGradient>
-      <linearGradient id="glowLine" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#8BC7CA" stop-opacity="0.8" />
-        <stop offset="50%" stop-color="#64FFDA" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#00B4D8" stop-opacity="0.8" />
-        <animate attributeName="x1" values="0%;100%;0%" dur="6s" repeatCount="indefinite" />
-        <animate attributeName="x2" values="100%;0%;100%" dur="6s" repeatCount="indefinite" />
+      <!-- Animated glowing line -->
+      <linearGradient id="glowPro" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#8BC7CA" stop-opacity="0.2" />
+        <stop offset="50%" stop-color="#8BC7CA" stop-opacity="1" />
+        <stop offset="100%" stop-color="#8BC7CA" stop-opacity="0.2" />
+        <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite" />
+        <animate attributeName="x2" values="100%;0%;100%" dur="8s" repeatCount="indefinite" />
       </linearGradient>
-      <filter id="shadow">
-        <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#8BC7CA" flood-opacity="0.3" />
+      <!-- Pattern: subtle grid -->
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a2a3a" stroke-width="0.5" opacity="0.3" />
+      </pattern>
+      <filter id="shadowPro">
+        <feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="#8BC7CA" flood-opacity="0.2" />
       </filter>
     </defs>
+    
     <!-- Background -->
-    <rect width="1200" height="300" fill="url(#bgGrad)" rx="16" />
-    <!-- Glowing bottom line -->
-    <rect x="50" y="280" width="1100" height="2.5" fill="url(#glowLine)" rx="1.5" />
+    <rect width="1200" height="280" fill="url(#bgPro)" rx="12" />
+    <rect width="1200" height="280" fill="url(#grid)" rx="12" />
     
-    <!-- Avatar circle -->
-    <g transform="translate(60, 60)">
-      <circle cx="70" cy="70" r="50" fill="#0d1b2a" stroke="url(#glowLine)" stroke-width="3" />
-      <text x="70" y="75" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" dominant-baseline="central">👨‍💻</text>
-    </g>
+    <!-- Glowing underline (animated) -->
+    <rect x="120" y="240" width="960" height="2.5" fill="url(#glowPro)" rx="1.5" />
     
-    <!-- Name & title -->
-    <g transform="translate(140, 40)">
-      <text font-family="'JetBrains Mono', monospace" font-size="34" font-weight="700" fill="#ffffff" filter="url(#shadow)">
+    <!-- Left side: Name and title -->
+    <g transform="translate(60, 50)">
+      <!-- Small icon: </> -->
+      <circle cx="40" cy="40" r="28" fill="none" stroke="#8BC7CA" stroke-width="1.5" opacity="0.6" />
+      <text x="40" y="46" font-family="'Courier New', monospace" font-size="24" font-weight="bold" fill="#8BC7CA" text-anchor="middle">&#60;/&#62;</text>
+      
+      <!-- Name -->
+      <text x="90" y="32" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff" filter="url(#shadowPro)" letter-spacing="1">
         Abed Mouhamed Yassin
       </text>
-      <text y="42" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="500" fill="#8BC7CA">
-        Full Stack Developer · Laravel &amp; React
+      <!-- Title -->
+      <text x="90" y="68" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="500" fill="#8BC7CA" letter-spacing="0.5">
+        Full Stack Developer
       </text>
-      <text y="78" font-family="Arial, sans-serif" font-size="15" fill="#8b949e">
-        Architecting scalable systems · Clean code · Reliable builds
+      <!-- Tagline -->
+      <text x="90" y="98" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#8b949e" letter-spacing="0.3">
+        Building scalable systems · Clean code · Reliable builds
       </text>
     </g>
     
-    <!-- Tech icons row -->
-    <g transform="translate(140, 155)">
-      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" x="0" y="0" width="36" height="36" />
-      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" x="56" y="0" width="36" height="36" />
-      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" x="112" y="0" width="36" height="36" />
-      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" x="168" y="0" width="36" height="36" />
-      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" x="224" y="0" width="36" height="36" />
-      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" x="280" y="0" width="36" height="36" />
-      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" x="336" y="0" width="36" height="36" />
+    <!-- Tech icons (aligned right) -->
+    <g transform="translate(820, 55)">
+      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" x="0" y="0" width="38" height="38" />
+      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" x="58" y="0" width="38" height="38" />
+      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" x="116" y="0" width="38" height="38" />
+      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" x="174" y="0" width="38" height="38" />
+      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" x="232" y="0" width="38" height="38" />
+      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" x="290" y="0" width="38" height="38" />
+      <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" x="348" y="0" width="38" height="38" />
     </g>
-    
-    <!-- Decorative dots -->
-    <circle cx="1080" cy="50" r="4.5" fill="#8BC7CA" opacity="0.4" />
-    <circle cx="1140" cy="120" r="3.5" fill="#64FFDA" opacity="0.3" />
-    <circle cx="1060" cy="230" r="5.5" fill="#00B4D8" opacity="0.2" />
   </svg>
 
   <br><br>

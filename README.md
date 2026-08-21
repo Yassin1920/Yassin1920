@@ -360,7 +360,8 @@ Complete web platform focused on products, customers, orders and administration.
 
 <div align="center">
 
-## `05` — CURRENTLY EXPLORING
+## `05` — AREAS OF INTEREST
+
 
 </div>
 
@@ -370,43 +371,43 @@ Complete web platform focused on products, customers, orders and administration.
 <tr>
 
 <td align="center">
-<img src="https://skillicons.dev/icons?i=docker"/>
+🎨
 <br>
-<b>Docker</b>
+<b>UX/UI Design</b>
 <br>
-Containerization
+User Experience & Interface Design
 </td>
 
 <td align="center">
-<img src="https://skillicons.dev/icons?i=linux"/>
+🤖
 <br>
-<b>Linux</b>
+<b>Artificial Intelligence</b>
 <br>
-Development Environment
+Machine Learning & Deep Learning
 </td>
 
 <td align="center">
-<img src="https://skillicons.dev/icons?i=git"/>
+📊
 <br>
-<b>Git</b>
+<b>Business Intelligence</b>
 <br>
-Version Control
+Data Analytics & Visualization
 </td>
 
 <td align="center">
-<img src="https://skillicons.dev/icons?i=nodejs"/>
+🌐
 <br>
-<b>Node.js</b>
+<b>Web Development</b>
 <br>
-Backend Development
+Full Stack & Modern Frameworks
 </td>
 
 <td align="center">
-<img src="https://skillicons.dev/icons?i=python"/>
+☁️
 <br>
-<b>Python</b>
+<b>Cloud & DevOps</b>
 <br>
-Automation & Development
+AWS, Docker & CI/CD
 </td>
 
 </tr>
@@ -414,23 +415,6 @@ Automation & Development
 
 ---
 
-<div align="center">
-
-## `06` — GITHUB ANALYTICS
-
-<br>
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=YassinAbed&show_icons=true&hide_border=true&theme=transparent&title_color=8BC7CA&icon_color=8BC7CA&text_color=94A3B8"/>
-
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=YassinAbed&hide_border=true&theme=transparent&ring=8BC7CA&fire=8BC7CA&currStreakLabel=8BC7CA"/>
-
-<br><br>
-
-<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YassinAbed&layout=compact&hide_border=true&theme=transparent&title_color=8BC7CA&text_color=94A3B8"/>
-
-</div>
-
----
 
 <div align="center">
 

@@ -1,313 +1,488 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abed Mouhamed Yassin - Full Stack Developer</title>
+    <!-- Font Awesome 6 (gratuit) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+    <style>
+        /* ---------- RESET & BASE ---------- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8fafc;
+            color: #0b1120;
+            line-height: 1.6;
+            padding: 2rem 1.5rem;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 2rem;
+            box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.12);
+            padding: 2.5rem 2.8rem;
+            transition: all 0.2s ease;
+        }
+        @media (max-width: 640px) {
+            body {
+                padding: 1rem 0.8rem;
+            }
+            .container {
+                padding: 1.8rem 1.2rem;
+                border-radius: 1.5rem;
+            }
+        }
+        /* ---------- TYPOGRAPHY ---------- */
+        h1,
+        h2,
+        h3 {
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+        h1 {
+            font-size: 2.8rem;
+            background: linear-gradient(145deg, #0b1120, #1e293b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: inline-block;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 2.8rem;
+            margin-bottom: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            border-bottom: 3px solid #e9edf2;
+            padding-bottom: 0.6rem;
+        }
+        h2 i {
+            color: #2563eb;
+            font-size: 1.6rem;
+            -webkit-text-fill-color: #2563eb;
+        }
+        h3 {
+            font-size: 1.25rem;
+            margin: 1.5rem 0 0.6rem;
+            color: #0b1120;
+        }
+        .badge-role {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e4f8a;
+            font-weight: 600;
+            font-size: 1rem;
+            padding: 0.3rem 1.2rem;
+            border-radius: 40px;
+            letter-spacing: 0.3px;
+            margin-top: 0.2rem;
+        }
+        .tagline {
+            font-size: 1.1rem;
+            color: #334155;
+            max-width: 650px;
+            margin: 0.8rem auto 0;
+            font-weight: 400;
+        }
+        /* ---------- HEADER / PROFILE ---------- */
+        .profile-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .profile-header .avatar-icon {
+            font-size: 4.2rem;
+            color: #2563eb;
+            background: #eef2ff;
+            width: 90px;
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin: 0 auto 0.8rem;
+            box-shadow: 0 8px 20px rgba(37, 99, 235, 0.10);
+        }
+        .divider {
+            width: 70px;
+            height: 4px;
+            background: linear-gradient(90deg, #2563eb, #7c8cff);
+            border-radius: 4px;
+            margin: 1.2rem auto 1rem;
+        }
+        /* ---------- ABOUT ---------- */
+        .about-text {
+            background: #f1f5f9;
+            padding: 1.5rem 2rem;
+            border-radius: 1.5rem;
+            border-left: 6px solid #2563eb;
+            font-size: 1rem;
+            color: #1e293b;
+            margin: 1rem 0 0.2rem;
+        }
+        /* ---------- SKILLS GRID ---------- */
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem 1.8rem;
+            align-items: center;
+            justify-content: center;
+            margin: 0.8rem 0 1rem;
+        }
+        .skills-grid img {
+            height: 48px;
+            width: auto;
+            transition: transform 0.2s ease;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.02));
+        }
+        .skills-grid img:hover {
+            transform: scale(1.08);
+        }
+        .skill-label {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem 1.2rem;
+            justify-content: center;
+            font-weight: 500;
+            color: #1e293b;
+            font-size: 0.95rem;
+            margin-top: 0.2rem;
+        }
+        .skill-label span {
+            background: #f1f5f9;
+            padding: 0.2rem 1rem;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: #1e293b;
+        }
+        .tech-category {
+            background: #fafcff;
+            border-radius: 1.4rem;
+            padding: 1.2rem 1.5rem 0.8rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+            border: 1px solid #eef2f6;
+            margin: 1.2rem 0 0.2rem;
+        }
+        .tech-category p {
+            font-weight: 600;
+            color: #0b1120;
+            margin-bottom: 0.6rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .tech-category p i {
+            color: #2563eb;
+            width: 1.4rem;
+        }
+        /* ---------- PROJECT CARDS ---------- */
+        .project-card {
+            background: #fafcff;
+            border: 1px solid #e9edf2;
+            border-radius: 1.6rem;
+            padding: 1.8rem 2rem;
+            margin: 1.6rem 0;
+            transition: box-shadow 0.25s ease, transform 0.15s ease;
+        }
+        .project-card:hover {
+            box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.06);
+            transform: translateY(-4px);
+            border-color: #d0d9e6;
+        }
+        .project-card h3 {
+            font-size: 1.5rem;
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+        .project-card h3 i {
+            color: #2563eb;
+            font-size: 1.7rem;
+        }
+        .project-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem 0.8rem;
+            margin: 0.6rem 0 0.8rem;
+        }
+        .project-stack span {
+            background: #eef2ff;
+            padding: 0.15rem 0.9rem;
+            border-radius: 40px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #1e4f8a;
+            letter-spacing: 0.3px;
+        }
+        .project-features {
+            list-style: none;
+            margin-top: 0.6rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem 1.2rem;
+        }
+        .project-features li {
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            color: #1e293b;
+        }
+        .project-features li i {
+            color: #2563eb;
+            font-size: 0.8rem;
+            opacity: 0.8;
+        }
+        /* ---------- CONTACT ---------- */
+        .contact-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem 1.8rem;
+            justify-content: center;
+            margin: 2rem 0 1rem;
+        }
+        .contact-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            background: #f1f5f9;
+            padding: 0.6rem 1.6rem;
+            border-radius: 60px;
+            font-weight: 600;
+            text-decoration: none;
+            color: #0b1120;
+            font-size: 0.95rem;
+            transition: background 0.2s, transform 0.1s;
+            border: 1px solid transparent;
+        }
+        .contact-links a i {
+            font-size: 1.2rem;
+        }
+        .contact-links a:hover {
+            background: #e2e8f0;
+            transform: scale(1.02);
+            border-color: #cbd5e1;
+        }
+        .contact-links a.email i {
+            color: #dc2626;
+        }
+        .contact-links a.whatsapp i {
+            color: #22c55e;
+        }
+        .contact-links a.linkedin i {
+            color: #0a66c2;
+        }
+        .footer-note {
+            text-align: center;
+            margin-top: 2.8rem;
+            font-size: 0.95rem;
+            color: #475569;
+            border-top: 2px solid #eef2f6;
+            padding-top: 1.8rem;
+            letter-spacing: 0.2px;
+        }
+        .footer-note i {
+            color: #2563eb;
+            margin: 0 0.2rem;
+        }
+        /* ---------- RESPONSIVE FINE-TUNE ---------- */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .project-card {
+                padding: 1.2rem;
+            }
+            .contact-links a {
+                padding: 0.5rem 1.2rem;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
 
-  <!-- ====== GRADIENT HEADER (no banner) ====== -->
-  <div style="position: relative; display: inline-block; padding: 20px 40px; border-radius: 30px; background: rgba(13,17,23,0.4); backdrop-filter: blur(10px); border: 1px solid rgba(139,199,202,0.2); box-shadow: 0 0 60px rgba(139,199,202,0.1);">
+    <div class="container">
 
-    <!-- Floating particles -->
-    <div style="position: absolute; top: -10px; left: 20px; width: 8px; height: 8px; border-radius: 50%; background: #8BC7CA; opacity: 0.6; box-shadow: 0 0 20px #8BC7CA;"></div>
-    <div style="position: absolute; top: 15px; right: -8px; width: 6px; height: 6px; border-radius: 50%; background: #64FFDA; opacity: 0.5; box-shadow: 0 0 20px #64FFDA;"></div>
-    <div style="position: absolute; bottom: 20px; left: -5px; width: 7px; height: 7px; border-radius: 50%; background: #7B61FF; opacity: 0.4; box-shadow: 0 0 20px #7B61FF;"></div>
-    <div style="position: absolute; bottom: -8px; right: 30px; width: 5px; height: 5px; border-radius: 50%; background: #FF6B6B; opacity: 0.5; box-shadow: 0 0 20px #FF6B6B;"></div>
+        <!-- ========== HEADER ========== -->
+        <div class="profile-header">
+            <div class="avatar-icon">
+                <i class="fas fa-user-astronaut"></i>
+            </div>
+            <h1>Abed Mouhamed Yassin</h1>
+            <div class="badge-role">
+                <i class="fas fa-code" style="margin-right: 6px;"></i> Full Stack Developer
+            </div>
+            <p class="tagline">
+                <i class="fas fa-rocket" style="color: #2563eb; margin-right: 6px;"></i>
+                Designing scalable web applications · Reliable backend · Modern interfaces
+            </p>
+            <div class="divider"></div>
+        </div>
 
-    <h1 style="font-size: 48px; font-weight: 800; margin: 0; background: linear-gradient(135deg, #8BC7CA, #64FFDA, #7B61FF, #FF6B6B); background-size: 300% 300%; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; animation: gradient-shift 4s ease-in-out infinite; letter-spacing: 2px;">
-      Abed Mouhamed Yassin
-    </h1>
-    <h3 style="font-size: 22px; font-weight: 400; color: #c9d1d9; margin: 4px 0 0; letter-spacing: 3px;">
-      <span style="color: #8BC7CA; animation: blink 1.5s step-end infinite;">&lt;</span> 
-      Full Stack Developer 
-      <span style="color: #8BC7CA; animation: blink 1.5s step-end infinite 0.5s;">/&gt;</span>
-    </h3>
-  </div>
+        <!-- ========== ABOUT ========== -->
+        <section>
+            <h2><i class="fas fa-user-circle"></i> About Me</h2>
+            <div class="about-text">
+                <p style="margin-bottom: 0.3rem;">
+                    <i class="fas fa-quote-left" style="color: #2563eb; opacity: 0.5; margin-right: 6px;"></i>
+                    I am a Full Stack Developer passionate about building robust and scalable web applications.
+                    My focus is combining solid backend architecture with modern frontend technologies to deliver efficient
+                    and maintainable software solutions.
+                </p>
+                <p style="margin-top: 0.6rem;">
+                    I enjoy solving complex technical problems, designing structured systems, and continuously learning
+                    new technologies to improve my engineering skills.
+                </p>
+            </div>
+        </section>
 
-  <br>
+        <!-- ========== CORE SKILLS ========== -->
+        <section>
+            <h2><i class="fas fa-cogs"></i> Core Technical Skills</h2>
 
-  <!-- Animated Typing -->
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=8BC7CA&center=true&vCenter=true&width=650&lines=Architecting+scalable+backends;Crafting+delightful+interfaces;Clean+code.+Clear+thinking.;Reliable+builds.+Happy+users.;Let's+build+something+amazing!" />
-  <br><br>
+            <!-- Frontend -->
+            <div class="tech-category">
+                <p><i class="fas fa-paint-brush"></i> Frontend Development</p>
+                <div class="skills-grid">
+                    <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap" alt="Frontend stack" />
+                </div>
+                <div class="skill-label">
+                    <span>HTML5</span> <span>CSS3</span> <span>JavaScript</span>
+                    <span>React</span> <span>Bootstrap</span>
+                </div>
+            </div>
 
-  <!-- Social Badges -->
-  <a href="mailto:mouhamedyassin6@gmail.com"><img src="https://img.shields.io/badge/-Email-0d1117?style=for-the-badge&logo=gmail&logoColor=8BC7CA&labelColor=0d1117" /></a>
-  <a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/"><img src="https://img.shields.io/badge/-LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=8BC7CA&labelColor=0d1117" /></a>
-  <a href="https://wa.me/21622314826"><img src="https://img.shields.io/badge/-WhatsApp-0d1117?style=for-the-badge&logo=whatsapp&logoColor=8BC7CA&labelColor=0d1117" /></a>
-  <br><br>
+            <!-- Backend -->
+            <div class="tech-category">
+                <p><i class="fas fa-server"></i> Backend Development</p>
+                <div class="skills-grid">
+                    <img src="https://skillicons.dev/icons?i=php,laravel,symfony" alt="Backend stack" />
+                </div>
+                <div class="skill-label">
+                    <span>PHP</span> <span>Laravel</span> <span>Symfony</span>
+                </div>
+            </div>
 
-  <!-- Status & Metrics -->
-  <table style="border: none; width: auto; margin: 0 auto; background: transparent;">
-    <tr>
-      <td style="border: none; padding: 0 10px;"><img src="https://img.shields.io/badge/status-open_to_work-8BC7CA?style=flat-square&labelColor=0d1117" /></td>
-      <td style="border: none; padding: 0 10px;"><img src="https://img.shields.io/badge/experience-4+_years-64FFDA?style=flat-square&labelColor=0d1117" /></td>
-      <td style="border: none; padding: 0 10px;"><img src="https://img.shields.io/badge/projects-12+-7B61FF?style=flat-square&labelColor=0d1117" /></td>
-      <td style="border: none; padding: 0 10px;"><img src="https://img.shields.io/badge/freelance-available-FF6B6B?style=flat-square&labelColor=0d1117" /></td>
-    </tr>
-  </table>
-</div>
+            <!-- Databases -->
+            <div class="tech-category">
+                <p><i class="fas fa-database"></i> Database Systems</p>
+                <div class="skills-grid">
+                    <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,oracle" alt="Databases" />
+                </div>
+                <div class="skill-label">
+                    <span>MySQL</span> <span>PostgreSQL</span>
+                    <span>Oracle</span> <span>MongoDB</span>
+                </div>
+            </div>
 
-<!-- Animated Divider -->
-<p align="center">
-  <span style="display: inline-block; width: 75%; height: 3px; background: linear-gradient(90deg, transparent, #8BC7CA, #64FFDA, #7B61FF, #FF6B6B, #8BC7CA, transparent); background-size: 300% 100%; border-radius: 3px; animation: shimmer-wave 4s linear infinite;"></span>
-</p>
+            <!-- Tools -->
+            <div class="tech-category">
+                <p><i class="fas fa-tools"></i> Development Tools &amp; Environment</p>
+                <div class="skills-grid">
+                    <img src="https://skillicons.dev/icons?i=git,docker,vscode,postman" alt="Tools" />
+                </div>
+                <div class="skill-label">
+                    <span>Git</span> <span>Docker</span>
+                    <span>VS Code</span> <span>Postman</span>
+                    <span>WAMP</span> <span>StarUML</span>
+                </div>
+            </div>
+        </section>
 
----
+        <!-- ========== FEATURED PROJECTS ========== -->
+        <section>
+            <h2><i class="fas fa-folder-open"></i> Featured Projects</h2>
 
-## 👨‍💻 About Me
+            <!-- Project 1 -->
+            <div class="project-card">
+                <h3><i class="fas fa-atom"></i> React Web Application – API Integration</h3>
+                <p style="color: #334155; margin-top: 0.2rem;">
+                    Modern web application using <strong>React</strong> that consumes external APIs and integrates
+                    cloud-based services for a dynamic, scalable user experience.
+                </p>
+                <div class="project-stack">
+                    <span>React</span> <span>JavaScript</span> <span>REST API</span>
+                </div>
+                <ul class="project-features">
+                    <li><i class="fas fa-check-circle"></i> API data consumption</li>
+                    <li><i class="fas fa-check-circle"></i> Dynamic React components</li>
+                    <li><i class="fas fa-check-circle"></i> Modern responsive UI</li>
+                    <li><i class="fas fa-check-circle"></i> Scalable architecture</li>
+                </ul>
+            </div>
 
-<table width="100%" style="border-collapse: separate; border-spacing: 0 16px;">
-  <tr>
-    <td width="60%" valign="top" style="border: 1px solid rgba(139,199,202,0.2); border-left: 4px solid #8BC7CA; border-radius: 12px; padding: 24px; background: rgba(13,17,23,0.6); backdrop-filter: blur(4px);">
-      <p style="font-size: 16px; line-height: 1.8; color: #c9d1d9; font-style: italic; margin: 0;">
-        “I build the unglamorous parts well – data models that stay stable, APIs that fail predictably, and UIs that perform under real load.”
-      </p>
-      <p style="font-size: 16px; line-height: 1.8; color: #c9d1d9; margin-top: 12px;">
-        My process is paper‑first: map entities, think through edge cases, and treat documentation as a deliverable. I own features from schema to UI, and I pick up tools to solve real problems – not to pad a resume.
-      </p>
-      <div style="margin-top: 16px;">
-        <span style="display: inline-block; background: rgba(139,199,202,0.12); padding: 4px 14px; border-radius: 30px; color: #8BC7CA; font-weight: 500; margin-right: 6px;">🧩 End‑to‑end</span>
-        <span style="display: inline-block; background: rgba(100,255,218,0.12); padding: 4px 14px; border-radius: 30px; color: #64FFDA; font-weight: 500; margin-right: 6px;">🧠 Design‑first</span>
-        <span style="display: inline-block; background: rgba(123,97,255,0.12); padding: 4px 14px; border-radius: 30px; color: #7B61FF; font-weight: 500;">🔧 Curious builder</span>
-      </div>
-    </td>
-    <td width="40%" valign="top" style="border: 1px solid rgba(139,199,202,0.2); border-radius: 12px; padding: 24px; background: rgba(13,17,23,0.6); backdrop-filter: blur(4px); box-shadow: 0 0 30px rgba(139,199,202,0.05);">
-      <table style="background: transparent; width: 100%;">
-        <tr><td style="border: none; padding: 6px 0;"><strong style="color: #8b949e;">📍 Based</strong></td><td style="border: none; padding: 6px 0; text-align: right; color: #c9d1d9;">🇹🇳 Tunisia</td></tr>
-        <tr><td style="border: none; padding: 6px 0;"><strong style="color: #8b949e;">🧰 Stack</strong></td><td style="border: none; padding: 6px 0; text-align: right; color: #c9d1d9;">PHP · JavaScript</td></tr>
-        <tr><td style="border: none; padding: 6px 0;"><strong style="color: #8b949e;">⚡ Focus</strong></td><td style="border: none; padding: 6px 0; text-align: right; color: #c9d1d9;">Backend + Frontend</td></tr>
-        <tr><td style="border: none; padding: 6px 0;"><strong style="color: #8b949e;">📖 Learning</strong></td><td style="border: none; padding: 6px 0; text-align: right; color: #c9d1d9;">System Design · Cloud</td></tr>
-        <tr><td style="border: none; padding: 6px 0;"><strong style="color: #8b949e;">🚀 Status</strong></td><td style="border: none; padding: 6px 0; text-align: right;"><span style="color: #8BC7CA; font-weight: 700; animation: pulse-text 2s ease-in-out infinite;">● Open to work</span></td></tr>
-      </table>
-      <hr style="border-color: rgba(139,199,202,0.1); margin: 16px 0;">
-      <div align="center" style="display: flex; justify-content: space-around; color: #c9d1d9;">
-        <div><span style="font-size: 28px; font-weight: 700; color: #8BC7CA;">3</span><br><sub style="color: #8b949e;">Stacks</sub></div>
-        <div><span style="font-size: 28px; font-weight: 700; color: #64FFDA;">4</span><br><sub style="color: #8b949e;">DB Engines</sub></div>
-        <div><span style="font-size: 28px; font-weight: 700; color: #7B61FF;">8+</span><br><sub style="color: #8b949e;">Core Tools</sub></div>
-      </div>
-    </td>
-  </tr>
-</table>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <h3><i class="fas fa-store"></i> E‑commerce Platform</h3>
+                <p style="color: #334155; margin-top: 0.2rem;">
+                    Full‑stack web application with structured backend logic and responsive frontend interfaces.
+                </p>
+                <div class="project-stack">
+                    <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
+                    <span>Bootstrap</span> <span>PHP</span> <span>MySQL</span>
+                </div>
+                <ul class="project-features">
+                    <li><i class="fas fa-check-circle"></i> CRUD operations</li>
+                    <li><i class="fas fa-check-circle"></i> Responsive design</li>
+                    <li><i class="fas fa-check-circle"></i> Server‑side processing</li>
+                    <li><i class="fas fa-check-circle"></i> MySQL management</li>
+                </ul>
+            </div>
 
----
+            <!-- Project 3 -->
+            <div class="project-card">
+                <h3><i class="fas fa-hotel"></i> Hotel Management System</h3>
+                <p style="color: #334155; margin-top: 0.2rem;">
+                    Web‑based system handling reservations, customer management, and administrative tasks.
+                </p>
+                <div class="project-stack">
+                    <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
+                    <span>Bootstrap</span> <span>PHP</span> <span>MySQL</span>
+                </div>
+                <ul class="project-features">
+                    <li><i class="fas fa-check-circle"></i> Reservation management</li>
+                    <li><i class="fas fa-check-circle"></i> Customer data handling</li>
+                    <li><i class="fas fa-check-circle"></i> Admin dashboard</li>
+                    <li><i class="fas fa-check-circle"></i> Secure backend logic</li>
+                </ul>
+            </div>
+        </section>
 
-## 🧰 Tech Stack
+        <!-- ========== CONTACT ========== -->
+        <section>
+            <h2><i class="fas fa-paper-plane"></i> Contact</h2>
+            <div class="contact-links">
+                <a href="mailto:mouhamedyassin6@gmail.com" class="email">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+                <a href="https://wa.me/21622314826" class="whatsapp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/" class="linkedin">
+                    <i class="fab fa-linkedin-in"></i> LinkedIn
+                </a>
+            </div>
+        </section>
 
-<div align="center">
-  <table style="border-collapse: separate; border-spacing: 16px; width: 100%;">
-    <tr>
-      <td style="border: 1px solid rgba(139,199,202,0.2); border-radius: 16px; padding: 20px; background: rgba(13,17,23,0.5); text-align: center; width: 25%; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
-        <img src="https://skillicons.dev/icons?i=php,laravel&theme=dark" width="70" /><br>
-        <strong style="color: #8BC7CA; font-size: 18px;">Backend</strong><br>
-        <span style="color: #8b949e; font-size: 13px;">PHP · Laravel · Symfony</span>
-      </td>
-      <td style="border: 1px solid rgba(100,255,218,0.2); border-radius: 16px; padding: 20px; background: rgba(13,17,23,0.5); text-align: center; width: 25%;">
-        <img src="https://skillicons.dev/icons?i=js,react&theme=dark" width="70" /><br>
-        <strong style="color: #64FFDA; font-size: 18px;">Frontend</strong><br>
-        <span style="color: #8b949e; font-size: 13px;">React · JavaScript · Bootstrap</span>
-      </td>
-      <td style="border: 1px solid rgba(123,97,255,0.2); border-radius: 16px; padding: 20px; background: rgba(13,17,23,0.5); text-align: center; width: 25%;">
-        <img src="https://skillicons.dev/icons?i=mysql,postgresql&theme=dark" width="70" /><br>
-        <strong style="color: #7B61FF; font-size: 18px;">Databases</strong><br>
-        <span style="color: #8b949e; font-size: 13px;">MySQL · PostgreSQL · MongoDB</span>
-      </td>
-      <td style="border: 1px solid rgba(255,107,107,0.2); border-radius: 16px; padding: 20px; background: rgba(13,17,23,0.5); text-align: center; width: 25%;">
-        <img src="https://skillicons.dev/icons?i=docker,git&theme=dark" width="70" /><br>
-        <strong style="color: #FF6B6B; font-size: 18px;">DevOps</strong><br>
-        <span style="color: #8b949e; font-size: 13px;">Docker · Git · Postman</span>
-      </td>
-    </tr>
-  </table>
-</div>
+        <!-- ========== FOOTER ========== -->
+        <div class="footer-note">
+            <i class="fas fa-cube" style="margin-right: 6px;"></i>
+            Building reliable software solutions through clean architecture, modern technologies, and continuous learning.
+        </div>
 
----
-
-## 📊 Skills & Proficiency
-
-<div align="center">
-  <table style="border-collapse: separate; border-spacing: 20px; width: 100%;">
-    <tr>
-      <td style="border: 1px solid rgba(139,199,202,0.15); border-radius: 20px; padding: 20px; background: rgba(13,17,23,0.5); text-align: center; width: 25%;">
-        <svg width="90" height="90" viewBox="0 0 100 100">
-          <circle cx="50" cy="50" r="40" fill="none" stroke="#161b22" stroke-width="8" />
-          <circle cx="50" cy="50" r="40" fill="none" stroke="#8BC7CA" stroke-width="8" stroke-dasharray="251.2" stroke-dashoffset="45.2" stroke-linecap="round" transform="rotate(-90 50 50)" />
-          <text x="50" y="55" font-size="22" font-weight="700" fill="#c9d1d9" text-anchor="middle">82%</text>
-        </svg>
-        <h4 style="color: #c9d1d9; margin: 10px 0 0;">PHP / Laravel</h4>
-      </td>
-      <td style="border: 1px solid rgba(100,255,218,0.15); border-radius: 20px; padding: 20px; background: rgba(13,17,23,0.5); text-align: center; width: 25%;">
-        <svg width="90" height="90" viewBox="0 0 100 100">
-          <circle cx="50" cy="50" r="40" fill="none" stroke="#161b22" stroke-width="8" />
-          <circle cx="50" cy="50" r="40" fill="none" stroke="#64FFDA" stroke-width="8" stroke-dasharray="251.2" stroke-dashoffset="80.4" stroke-linecap="round" transform="rotate(-90 50 50)" />
-          <text x="50" y="55" font-size="22" font-weight="700" fill="#c9d1d9" text-anchor="middle">68%</text>
-        </svg>
-        <h4 style="color: #c9d1d9; margin: 10px 0 0;">JavaScript / React</h4>
-      </td>
-      <td style="border: 1px solid rgba(123,97,255,0.15); border-radius: 20px; padding: 20px; background: rgba(13,17,23,0.5); text-align: center; width: 25%;">
-        <svg width="90" height="90" viewBox="0 0 100 100">
-          <circle cx="50" cy="50" r="40" fill="none" stroke="#161b22" stroke-width="8" />
-          <circle cx="50" cy="50" r="40" fill="none" stroke="#7B61FF" stroke-width="8" stroke-dasharray="251.2" stroke-dashoffset="62.8" stroke-linecap="round" transform="rotate(-90 50 50)" />
-          <text x="50" y="55" font-size="22" font-weight="700" fill="#c9d1d9" text-anchor="middle">75%</text>
-        </svg>
-        <h4 style="color: #c9d1d9; margin: 10px 0 0;">SQL / DB Design</h4>
-      </td>
-      <td style="border: 1px solid rgba(255,107,107,0.15); border-radius: 20px; padding: 20px; background: rgba(13,17,23,0.5); text-align: center; width: 25%;">
-        <svg width="90" height="90" viewBox="0 0 100 100">
-          <circle cx="50" cy="50" r="40" fill="none" stroke="#161b22" stroke-width="8" />
-          <circle cx="50" cy="50" r="40" fill="none" stroke="#FF6B6B" stroke-width="8" stroke-dasharray="251.2" stroke-dashoffset="100.5" stroke-linecap="round" transform="rotate(-90 50 50)" />
-          <text x="50" y="55" font-size="22" font-weight="700" fill="#c9d1d9" text-anchor="middle">60%</text>
-        </svg>
-        <h4 style="color: #c9d1d9; margin: 10px 0 0;">System Architecture</h4>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-## 🚀 Featured Projects
-
-<table width="100%" style="border-collapse: separate; border-spacing: 18px;">
-  <tr>
-    <!-- Project 1 -->
-    <td width="33%" valign="top" style="border: 1px solid rgba(139,199,202,0.2); border-top: 6px solid #8BC7CA; border-radius: 16px; padding: 24px; background: rgba(13,17,23,0.6); backdrop-filter: blur(4px); box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
-      <div style="display: flex; align-items: center; gap: 8px;">
-        <span style="font-size: 28px;">⚛</span>
-        <h4 style="color: #8BC7CA; margin: 0;">React · API Platform</h4>
-      </div>
-      <p style="color: #c9d1d9; font-size: 14px; margin: 10px 0;">Modern React app consuming REST APIs &amp; cloud services – dynamic, scalable UX.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-React-0d1117?style=flat&logo=react&logoColor=8BC7CA" />
-        <img src="https://img.shields.io/badge/-JavaScript-0d1117?style=flat&logo=javascript&logoColor=8BC7CA" />
-        <img src="https://img.shields.io/badge/-REST-0d1117?style=flat&logo=postman&logoColor=8BC7CA" />
-      </p>
-      <ul style="color: #c9d1d9; font-size: 14px; padding-left: 20px; margin: 8px 0;">
-        <li>Reusable components</li>
-        <li>Live API consumption</li>
-        <li>Fully responsive</li>
-      </ul>
-      <div style="display: flex; gap: 12px; margin-top: 12px;">
-        <a href="https://github.com/Yassin1920/react-api-platform" target="_blank" style="color: #8BC7CA; text-decoration: none; font-weight: 600;">🔗 Live Demo</a>
-        <a href="https://github.com/Yassin1920/react-api-platform" target="_blank" style="color: #8b949e; text-decoration: none; display: flex; align-items: center; gap: 4px;">
-          <svg height="16" viewBox="0 0 16 16" width="16" style="fill: #8b949e;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
-          Source
-        </a>
-      </div>
-    </td>
-    <!-- Project 2 -->
-    <td width="33%" valign="top" style="border: 1px solid rgba(100,255,218,0.2); border-top: 6px solid #64FFDA; border-radius: 16px; padding: 24px; background: rgba(13,17,23,0.6); backdrop-filter: blur(4px); box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
-      <div style="display: flex; align-items: center; gap: 8px;">
-        <span style="font-size: 28px;">🛒</span>
-        <h4 style="color: #64FFDA; margin: 0;">E‑Commerce Platform</h4>
-      </div>
-      <p style="color: #c9d1d9; font-size: 14px; margin: 10px 0;">Full‑stack e‑commerce with structured backend and Bootstrap frontend.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-PHP-0d1117?style=flat&logo=php&logoColor=8BC7CA" />
-        <img src="https://img.shields.io/badge/-MySQL-0d1117?style=flat&logo=mysql&logoColor=8BC7CA" />
-        <img src="https://img.shields.io/badge/-Bootstrap-0d1117?style=flat&logo=bootstrap&logoColor=8BC7CA" />
-      </p>
-      <ul style="color: #c9d1d9; font-size: 14px; padding-left: 20px; margin: 8px 0;">
-        <li>Complete CRUD</li>
-        <li>Server‑side processing</li>
-        <li>Structured schema</li>
-      </ul>
-      <div style="display: flex; gap: 12px; margin-top: 12px;">
-        <a href="https://github.com/Yassin1920/ecommerce-platform" target="_blank" style="color: #64FFDA; text-decoration: none; font-weight: 600;">🔗 Live Demo</a>
-        <a href="https://github.com/Yassin1920/ecommerce-platform" target="_blank" style="color: #8b949e; text-decoration: none; display: flex; align-items: center; gap: 4px;">
-          <svg height="16" viewBox="0 0 16 16" width="16" style="fill: #8b949e;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
-          Source
-        </a>
-      </div>
-    </td>
-    <!-- Project 3 -->
-    <td width="33%" valign="top" style="border: 1px solid rgba(123,97,255,0.2); border-top: 6px solid #7B61FF; border-radius: 16px; padding: 24px; background: rgba(13,17,23,0.6); backdrop-filter: blur(4px); box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
-      <div style="display: flex; align-items: center; gap: 8px;">
-        <span style="font-size: 28px;">🏨</span>
-        <h4 style="color: #7B61FF; margin: 0;">Hotel Management</h4>
-      </div>
-      <p style="color: #c9d1d9; font-size: 14px; margin: 10px 0;">End‑to‑end system for reservations, guest records, and admin operations.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-PHP-0d1117?style=flat&logo=php&logoColor=8BC7CA" />
-        <img src="https://img.shields.io/badge/-MySQL-0d1117?style=flat&logo=mysql&logoColor=8BC7CA" />
-        <img src="https://img.shields.io/badge/-Bootstrap-0d1117?style=flat&logo=bootstrap&logoColor=8BC7CA" />
-      </p>
-      <ul style="color: #c9d1d9; font-size: 14px; padding-left: 20px; margin: 8px 0;">
-        <li>Reservation workflow</li>
-        <li>Secure admin dashboard</li>
-        <li>Database‑driven</li>
-      </ul>
-      <div style="display: flex; gap: 12px; margin-top: 12px;">
-        <a href="https://github.com/Yassin1920/hotel-management" target="_blank" style="color: #7B61FF; text-decoration: none; font-weight: 600;">🔗 Live Demo</a>
-        <a href="https://github.com/Yassin1920/hotel-management" target="_blank" style="color: #8b949e; text-decoration: none; display: flex; align-items: center; gap: 4px;">
-          <svg height="16" viewBox="0 0 16 16" width="16" style="fill: #8b949e;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
-          Source
-        </a>
-      </div>
-    </td>
-  </tr>
-</table>
-
----
-
-## 🔭 Current Focus
-
-<div align="center" style="border: 1px solid rgba(139,199,202,0.15); border-radius: 20px; padding: 24px 32px; background: rgba(13,17,23,0.5); backdrop-filter: blur(4px); max-width: 80%; margin: 0 auto;">
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px;">
-    <span style="background: rgba(139,199,202,0.15); padding: 6px 18px; border-radius: 30px; color: #8BC7CA; font-weight: 500;">📚 Learning</span>
-    <span style="background: rgba(100,255,218,0.15); padding: 6px 18px; border-radius: 30px; color: #64FFDA; font-weight: 500;">⚙️ System Design</span>
-    <span style="background: rgba(123,97,255,0.15); padding: 6px 18px; border-radius: 30px; color: #7B61FF; font-weight: 500;">☁️ Cloud Deployment</span>
-    <span style="background: rgba(255,107,107,0.15); padding: 6px 18px; border-radius: 30px; color: #FF6B6B; font-weight: 500;">🧪 Microservices</span>
-  </div>
-  <div style="margin-top: 18px; text-align: left; color: #8b949e; font-size: 14px;">
-    <span>Building a microservices demo with Laravel &amp; React</span>
-    <div style="background: #161b22; border-radius: 30px; height: 8px; width: 100%; margin-top: 6px; overflow: hidden;">
-      <div style="background: linear-gradient(90deg, #8BC7CA, #64FFDA, #7B61FF); border-radius: 30px; width: 65%; height: 8px; box-shadow: 0 0 16px rgba(139,199,202,0.3);"></div>
     </div>
-    <div style="display: flex; justify-content: space-between; font-size: 12px; color: #8b949e; margin-top: 2px;">
-      <span>Progress</span>
-      <span>65%</span>
-    </div>
-  </div>
-</div>
+    <!-- /container -->
 
----
-
-## 📬 Let's Connect
-
-<div align="center" style="border: 1px solid rgba(139,199,202,0.2); border-radius: 30px; padding: 44px 20px; background: rgba(13,17,23,0.5); backdrop-filter: blur(8px); margin-top: 28px; box-shadow: 0 0 60px rgba(139,199,202,0.05);">
-  <p style="font-size: 22px; color: #c9d1d9; margin: 0 0 8px;">
-    Let's <strong style="color: #8BC7CA;">build something</strong> amazing together.
-  </p>
-  <p style="color: #8b949e; font-size: 16px; margin-bottom: 24px;">
-    Open to Full Stack roles &amp; freelance collaborations.
-  </p>
-  <a href="mailto:mouhamedyassin6@gmail.com" style="display: inline-block; background: linear-gradient(135deg, #8BC7CA, #64FFDA); color: #0d1117; padding: 14px 40px; border-radius: 40px; font-weight: 700; text-decoration: none; font-size: 18px; box-shadow: 0 0 30px rgba(139,199,202,0.3);">
-    ✉️ Start a conversation
-  </a>
-  <br><br>
-  <a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/"><img src="https://img.shields.io/badge/-LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=8BC7CA" /></a>
-  <a href="https://wa.me/21622314826"><img src="https://img.shields.io/badge/-WhatsApp-0d1117?style=flat-square&logo=whatsapp&logoColor=8BC7CA" /></a>
-  <br><br>
-  <sub style="color: #8b949e; font-size: 13px;">© Abed Mouhamed Yassin — Built with clean architecture and continuous learning.</sub>
-</div>
-
----
-
-<!-- ====== CSS ANIMATIONS ====== -->
-<style>
-@keyframes gradient-shift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-@keyframes shimmer-wave {
-  0% { background-position: 0% 0%; }
-  100% { background-position: 300% 0%; }
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.2; }
-}
-
-@keyframes pulse-text {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.4; }
-}
-</style>
+</body>
+</html>

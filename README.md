@@ -1,111 +1,252 @@
+<!-- ========================================================= -->
+
+<!--                     HERO / BANNER                         -->
+
+<!-- ========================================================= -->
+
 <div align="center">
 
-<img width="100%" src="./assets/banner.svg" alt="Abed Mouhamed Yassin — Full Stack Developer" />
+<svg width="100%" height="240" viewBox="0 0 1200 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080b10"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#111820"/>
+    </linearGradient>
 
-<br><br>
+```
+<linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#5f9ea0"/>
+  <stop offset="50%" stop-color="#8BC7CA"/>
+  <stop offset="100%" stop-color="#b2e4e5"/>
+</linearGradient>
 
-<h1>Abed Mouhamed Yassin</h1>
+<filter id="glow">
+  <feGaussianBlur stdDeviation="8" result="blur"/>
+  <feMerge>
+    <feMergeNode in="blur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+```
 
-<h3>Full Stack Developer · Software Engineering Student · Problem Solver</h3>
+  </defs>
+
+  <!-- Background -->
+
+  <rect width="1200" height="240" rx="18" fill="url(#bg)"/>
+
+  <!-- Grid -->
+
+  <g opacity="0.08" stroke="#8BC7CA">
+    <path d="M0 40H1200"/>
+    <path d="M0 80H1200"/>
+    <path d="M0 120H1200"/>
+    <path d="M0 160H1200"/>
+    <path d="M0 200H1200"/>
+
+```
+<path d="M80 0V240"/>
+<path d="M160 0V240"/>
+<path d="M240 0V240"/>
+<path d="M320 0V240"/>
+<path d="M400 0V240"/>
+<path d="M480 0V240"/>
+<path d="M560 0V240"/>
+<path d="M640 0V240"/>
+<path d="M720 0V240"/>
+<path d="M800 0V240"/>
+<path d="M880 0V240"/>
+<path d="M960 0V240"/>
+<path d="M1040 0V240"/>
+<path d="M1120 0V240"/>
+```
+
+  </g>
+
+  <!-- Decorative glow -->
+
+  <circle cx="1030" cy="60" r="90" fill="#8BC7CA" opacity="0.05"/>
+  <circle cx="1030" cy="60" r="55" fill="#8BC7CA" opacity="0.06"/>
+
+  <!-- Terminal -->
+
+<rect x="760" y="45" width="360" height="145" rx="12"
+     fill="#080b10"
+     stroke="#8BC7CA"
+     stroke-opacity="0.35"/>
+
+  <!-- Terminal header -->
+
+  <rect x="760" y="45" width="360" height="32" rx="12" fill="#111820"/>
+
+  <circle cx="782" cy="61" r="5" fill="#8BC7CA" opacity="0.9"/>
+  <circle cx="800" cy="61" r="5" fill="#8BC7CA" opacity="0.5"/>
+  <circle cx="818" cy="61" r="5" fill="#8BC7CA" opacity="0.25"/>
+
+<text x="840" y="66"
+     font-family="monospace"
+     font-size="12"
+     fill="#68737d">
+developer@portfolio:~ </text>
+
+  <!-- Terminal content -->
+
+<text x="785" y="103"
+     font-family="monospace"
+     font-size="13"
+     fill="#8BC7CA">
+$ whoami </text>
+
+<text x="785" y="124"
+     font-family="monospace"
+     font-size="13"
+     fill="#c9d1d9">
+abed-mouhamed-yassin </text>
+
+<text x="785" y="147"
+     font-family="monospace"
+     font-size="13"
+     fill="#8BC7CA">
+$ build --future </text>
+
+<text x="785" y="168"
+     font-family="monospace"
+     font-size="13"
+     fill="#c9d1d9">
+scalable • clean • reliable </text>
+
+  <!-- Main title -->
+
+<text x="70" y="88"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="17"
+     font-weight="600"
+     letter-spacing="5"
+     fill="#8BC7CA">
+SOFTWARE ENGINEERING </text>
+
+<text x="70" y="132"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="38"
+     font-weight="700"
+     fill="#ffffff">
+Building systems, </text>
+
+<text x="70" y="174"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="38"
+     font-weight="700"
+     fill="url(#accent)">
+not just websites. </text>
+
+  <rect x="70" y="198" width="360" height="2" fill="#8BC7CA" opacity="0.5"/>
+
+<text x="70" y="220"
+     font-family="monospace"
+     font-size="12"
+     fill="#7d8993">
+FULL STACK · BACKEND · DATABASE · ARCHITECTURE </text>
+
+</svg>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=900&color=8BC7CA&center=true&vCenter=true&width=720&lines=Architecting+scalable+backend+systems;Building+modern+full-stack+applications;Designing+clean+and+maintainable+solutions;Clean+code.+Clear+thinking.+Reliable+builds." />
+# Abed Mouhamed Yassin
+
+### `Full Stack Developer` · `Software Engineering Student`
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=900&color=8BC7CA&center=true&vCenter=true&width=760&lines=Architecting+scalable+backend+systems;Building+modern+full-stack+applications;Designing+clean+and+maintainable+solutions;Turning+ideas+into+reliable+software." />
 
 <br><br>
 
 <a href="mailto:mouhamedyassin6@gmail.com">
-<img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=8BC7CA" />
+<img src="https://img.shields.io/badge/EMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=8BC7CA" />
 </a>
 
 <a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/">
-<img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=8BC7CA" />
+<img src="https://img.shields.io/badge/LINKEDIN-0d1117?style=for-the-badge&logo=linkedin&logoColor=8BC7CA" />
 </a>
 
-<a href="https://wa.me/21622314826">
-<img src="https://img.shields.io/badge/WhatsApp-0d1117?style=for-the-badge&logo=whatsapp&logoColor=8BC7CA" />
+<a href="https://github.com/Yassin1920">
+<img src="https://img.shields.io/badge/GITHUB-0d1117?style=for-the-badge&logo=github&logoColor=8BC7CA" />
 </a>
 
 <br><br>
 
-<img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20WORK-8BC7CA?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/●%20OPEN%20TO%20WORK-8BC7CA?style=flat-square&labelColor=0d1117" />
 
-<img src="https://komarev.com/ghpvc/?username=Yassin1920&style=flat-square&color=8BC7CA&labelColor=0d1117&label=PROFILE%20VIEWS" />
+<img src="https://komarev.com/ghpvc/?username=Yassin1920&style=flat-square&color=8BC7CA&labelColor=0d1117&label=VISITORS" />
 
 </div>
 
 <br>
 
-<p align="center">
-<sub>
-▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-</sub>
-</p>
-
 ---
 
-# `01` — About Me
+# `01` · WHO I AM
 
 <table width="100%">
 <tr>
 
-<td width="65%" valign="top">
+<td width="60%" valign="top">
 
-### Building software that lasts.
+## I build with intention.
 
-I'm a **Full Stack Developer** focused on building reliable web applications from the database layer to the user interface.
+I'm a **Full Stack Developer** who enjoys turning complex requirements into clean, reliable and maintainable software.
 
-I care about more than simply making an application work.
+I don't start with code.
 
-My approach is centered around:
+I start with:
 
-* 🧠 **Structured thinking** before implementation
-* 🏗️ **Maintainable architecture** instead of quick fixes
-* 🔐 **Reliable backend logic** and secure data flows
-* 🎨 **Clean interfaces** with attention to UX
-* 🧪 **Testing and API validation** throughout development
-* 📚 **Continuous learning** through real-world projects
+**Understanding → Modeling → Designing → Building → Testing → Deploying**
 
-I like understanding **why** something should be built a certain way before deciding **how** to build it.
+My strongest interest is the intersection between **backend engineering, databases and modern frontend applications**.
+
+### What matters to me
+
+`Clean Architecture`
+
+`Data Integrity`
+
+`Predictable APIs`
+
+`Good UX`
+
+`Maintainable Code`
+
+`Continuous Learning`
 
 </td>
 
-<td width="35%" valign="top">
-
-### Developer Profile
+<td width="40%" valign="top">
 
 ```yaml
-name: Abed Mouhamed Yassin
-role: Full Stack Developer
-location: Tunisia
+developer:
+  name: Abed Mouhamed Yassin
+  role: Full Stack Developer
+  location: Tunisia
 
-focus:
+specialization:
+  - Web Development
   - Backend Engineering
-  - Frontend Development
   - Database Design
   - System Architecture
 
-primary_stack:
-  - PHP
-  - Laravel
-  - JavaScript
-  - React
-  - SQL
+main_stack:
+  frontend: React
+  backend: Laravel / Node.js
+  database: MySQL / PostgreSQL
 
-currently_learning:
-  - System Design
-  - Docker
-  - DevOps
-  - Scalable Architectures
+mindset:
+  design_first: true
+  clean_code: true
+  api_first: true
+  learning: continuous
 
-workflow:
-  - Design
-  - Build
-  - Test
-  - Deploy
-
-status:
-  - Open to Work
+status: open_to_work
 ```
 
 </td>
@@ -117,7 +258,7 @@ status:
 
 ---
 
-# `02` — Engineering Mindset
+# `02` · ENGINEERING MINDSET
 
 <div align="center">
 
@@ -126,29 +267,25 @@ status:
 
 <td align="center" width="25%">
 
-### 🧩
+### 🧠
 
-**Architecture**
+### THINK
 
-Design before code.
-
-Think in systems.
-
-Reduce rewrites.
+Requirements
+Constraints
+Edge cases
 
 </td>
 
 <td align="center" width="25%">
 
-### 🗄️
+### 🏗️
 
-**Data**
+### DESIGN
 
-Model before migration.
-
-Keep relationships clear.
-
-Protect data integrity.
+Architecture
+Entities
+Relationships
 
 </td>
 
@@ -156,27 +293,23 @@ Protect data integrity.
 
 ### ⚙️
 
-**Backend**
+### BUILD
 
-Predictable logic.
-
-Validated APIs.
-
-Secure workflows.
+APIs
+Business logic
+Interfaces
 
 </td>
 
 <td align="center" width="25%">
 
-### 🎨
+### 🚀
 
-**Frontend**
+### DELIVER
 
-Responsive by default.
-
-Component-driven UI.
-
-UX matters.
+Testing
+Docker
+Deployment
 
 </td>
 
@@ -185,7 +318,13 @@ UX matters.
 
 <br>
 
-> **Good software is not just software that works — it's software that remains understandable when the project grows.**
+<blockquote>
+
+<b>Good software isn't just software that works.</b>
+
+It is software that remains understandable when the project grows.
+
+</blockquote>
 
 </div>
 
@@ -193,119 +332,121 @@ UX matters.
 
 ---
 
-# `03` — Tech Stack
+# `03` · TECHNOLOGY STACK
 
-## Frontend
+## `Frontend`
 
 <p>
 <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap,tailwind&theme=dark" />
 </p>
 
-**HTML · CSS · JavaScript · React · Bootstrap · Tailwind CSS**
+```text
+HTML        CSS         JavaScript
+React       Bootstrap   Tailwind CSS
+```
 
-<sub>
-Responsive, component-driven interfaces with modern UI patterns and REST API integration.
-</sub>
+<sub>Component-driven interfaces · Responsive design · REST API consumption · Modern UX</sub>
 
 <br>
 
-## Backend
+## `Backend`
 
 <p>
 <img src="https://skillicons.dev/icons?i=php,laravel,symfony,nodejs,express&theme=dark" />
 </p>
 
-**PHP · Laravel · Symfony · Node.js · Express**
+```text
+PHP         Laravel      Symfony
+Node.js     Express
+```
 
-<sub>
-Server-side logic, authentication, REST APIs, CRUD systems, validation and business workflows.
-</sub>
+<sub>REST APIs · Authentication · Business logic · CRUD · Validation · Server-side architecture</sub>
 
 <br>
 
-## Databases
+## `Database`
 
 <p>
 <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,oracle&theme=dark" />
 </p>
 
-**MySQL · PostgreSQL · MongoDB · Oracle**
+```text
+MySQL       PostgreSQL
+MongoDB     Oracle
+```
 
-<sub>
-Relational modeling, normalization, SQL queries, relationships and database-driven applications.
-</sub>
+<sub>Relational modeling · SQL · Normalization · Relationships · Data integrity</sub>
 
 <br>
 
-## Tools & Workflow
+## `Tools`
 
 <p>
 <img src="https://skillicons.dev/icons?i=git,github,docker,vscode,postman,figma&theme=dark" />
 </p>
 
-**Git · GitHub · Docker · VS Code · Postman · Figma**
-
-<sub>
-Version control, containerized environments, API testing, development workflow and interface design.
-</sub>
+```text
+Git         GitHub       Docker
+VS Code     Postman      Figma
+```
 
 <br>
 
 ---
 
-# `04` — What I Build
+# `04` · WHAT I BUILD
 
 <table width="100%">
 <tr>
 
 <td width="33%" valign="top">
 
-### ⚡ Full Stack Applications
+## ⚡ Full Stack
 
-End-to-end applications connecting modern interfaces with structured backend systems.
+Applications where frontend and backend work together as one system.
 
-**Focus**
+**I focus on**
 
 * REST APIs
 * Authentication
 * CRUD
 * Business logic
-* Responsive UI
 * Database integration
+* Responsive interfaces
 
 </td>
 
 <td width="33%" valign="top">
 
-### 🛒 Business Platforms
+## 🧩 Management Systems
 
-Management systems designed around real-world workflows.
+Software designed around real-world business workflows.
 
-**Focus**
+**Examples**
 
+* Pharmacy
 * E-commerce
-* Pharmacy management
 * Reservations
-* Dashboards
+* Administration
 * Inventory
-* User management
+* Dashboards
 
 </td>
 
 <td width="33%" valign="top">
 
-### 🧱 Backend Systems
+## 🏗️ Backend
 
-Reliable server-side foundations designed to grow with the application.
+The foundation behind reliable applications.
 
-**Focus**
+**I work with**
 
 * API architecture
 * Database design
 * Validation
-* Authentication
 * Security
-* Maintainability
+* Authentication
+* Scalable structure
 
 </td>
 
@@ -316,37 +457,26 @@ Reliable server-side foundations designed to grow with the application.
 
 ---
 
-# `05` — Selected Projects
+# `05` · FEATURED PROJECTS
 
 <table width="100%">
-
 <tr>
 
 <td width="50%" valign="top">
 
-<h3>🍔 Tasty Bites</h3>
+## 🍔 Tasty Bites
 
-<b>Self-Service Restaurant Kiosk</b>
+### Self-Service Restaurant Kiosk
 
-<br><br>
+A modern touchscreen ordering experience for restaurants.
 
-A modern touchscreen ordering system designed for restaurants.
-
-<br>
-
-<b>Stack</b>
-
-<br>
+**Technologies**
 
 <img src="https://skillicons.dev/icons?i=react,nodejs&theme=dark" />
 
-<br>
+`React` · `Node.js` · `REST API` · `Framer Motion`
 
-<code>React</code> <code>Node.js</code> <code>REST API</code> <code>Framer Motion</code>
-
-<br><br>
-
-<b>Highlights</b>
+### Features
 
 * Interactive menu
 * Product customization
@@ -355,16 +485,19 @@ A modern touchscreen ordering system designed for restaurants.
 * Order workflow
 * QR-based ticket
 * Responsive kiosk interface
+* Animated interactions
 
-<br>
+### Architecture
 
-<b>Architecture</b>
-
-<br>
-
-<code>React → API → Business Logic → Data</code>
-
-<br><br>
+```text
+React
+  ↓
+REST API
+  ↓
+Business Logic
+  ↓
+Data
+```
 
 <a href="#">
 <img src="https://img.shields.io/badge/VIEW%20PROJECT-8BC7CA?style=for-the-badge&logoColor=0d1117" />
@@ -374,31 +507,21 @@ A modern touchscreen ordering system designed for restaurants.
 
 <td width="50%" valign="top">
 
-<h3>💊 Pharmacy Management</h3>
+## 💊 Pharmacy Management
 
-<b>Pharmacy Management Platform</b>
+### Pharmacy Management Platform
 
-<br><br>
+A complete platform designed around real pharmacy workflows.
 
-A complete management solution designed around pharmacy workflows.
-
-<br>
-
-<b>Stack</b>
-
-<br>
+**Technologies**
 
 <img src="https://skillicons.dev/icons?i=react,nodejs,mysql&theme=dark" />
 
-<br>
+`React` · `Node.js` · `MySQL` · `REST API`
 
-<code>React</code> <code>Node.js</code> <code>MySQL</code> <code>REST API</code>
+### Features
 
-<br><br>
-
-<b>Highlights</b>
-
-* POS
+* Point of Sale
 * Product management
 * Barcode / PCT search
 * Prescription sales
@@ -407,15 +530,17 @@ A complete management solution designed around pharmacy workflows.
 * Admin dashboard
 * Role-based access
 
-<br>
+### Architecture
 
-<b>Architecture</b>
-
-<br>
-
-<code>React → REST API → Node.js → MySQL</code>
-
-<br><br>
+```text
+React
+  ↓
+REST API
+  ↓
+Node.js
+  ↓
+MySQL
+```
 
 <a href="#">
 <img src="https://img.shields.io/badge/VIEW%20PROJECT-8BC7CA?style=for-the-badge&logoColor=0d1117" />
@@ -429,31 +554,21 @@ A complete management solution designed around pharmacy workflows.
 
 <td width="50%" valign="top">
 
-<h3>🛒 E-Commerce Platform</h3>
+## 🛒 E-Commerce Platform
 
-<b>Full Stack Commerce System</b>
+### Full Stack Commerce System
 
-<br><br>
+A structured e-commerce platform focused on clean backend logic and database design.
 
-A structured e-commerce platform focused on maintainable backend architecture.
-
-<br>
-
-<b>Stack</b>
-
-<br>
+**Technologies**
 
 <img src="https://skillicons.dev/icons?i=php,mysql,bootstrap&theme=dark" />
 
-<br>
+`PHP` · `MySQL` · `Bootstrap`
 
-<code>PHP</code> <code>MySQL</code> <code>Bootstrap</code>
+### Features
 
-<br><br>
-
-<b>Highlights</b>
-
-* Product management
+* Products
 * Categories
 * Brands
 * Orders
@@ -463,8 +578,6 @@ A structured e-commerce platform focused on maintainable backend architecture.
 * CRUD operations
 * Database relationships
 
-<br><br>
-
 <a href="#">
 <img src="https://img.shields.io/badge/VIEW%20REPOSITORY-0d1117?style=for-the-badge&logo=github&logoColor=8BC7CA" />
 </a>
@@ -473,39 +586,27 @@ A structured e-commerce platform focused on maintainable backend architecture.
 
 <td width="50%" valign="top">
 
-<h3>🏨 Hotel Management</h3>
+## 🏨 Hotel Management
 
-<b>Reservation & Administration System</b>
+### Reservation & Administration
 
-<br><br>
+A database-driven platform for hotel operations.
 
-A database-driven hotel management application.
-
-<br>
-
-<b>Stack</b>
-
-<br>
+**Technologies**
 
 <img src="https://skillicons.dev/icons?i=php,mysql,bootstrap&theme=dark" />
 
-<br>
+`PHP` · `MySQL` · `Bootstrap`
 
-<code>PHP</code> <code>MySQL</code> <code>Bootstrap</code>
+### Features
 
-<br><br>
-
-<b>Highlights</b>
-
+* Room management
 * Reservations
 * Guest management
-* Room management
 * Availability
 * Administrative dashboard
-* Database-driven workflows
 * Authentication
-
-<br><br>
+* Database workflows
 
 <a href="#">
 <img src="https://img.shields.io/badge/VIEW%20REPOSITORY-0d1117?style=for-the-badge&logo=github&logoColor=8BC7CA" />
@@ -514,76 +615,36 @@ A database-driven hotel management application.
 </td>
 
 </tr>
-
 </table>
 
 <br>
 
 ---
 
-# `06` — Currently Building
+# `06` · CURRENTLY BUILDING
 
 <div align="center">
 
-<table width="90%">
-<tr>
-
-<td align="center">
-
-### 🚀 CURRENT FOCUS
-
-<br>
-
-**Full Stack Applications**
-
-`React` `Laravel` `Node.js`
-
-<br><br>
-
-**Backend Architecture**
-
-`REST APIs` `Authentication` `Business Logic`
-
-<br><br>
-
-**Infrastructure**
-
-`Docker` `Git` `Deployment`
-
-<br><br>
-
-**Engineering**
-
-`System Design` `Database Architecture`
-
-</td>
-
-</tr>
-</table>
-
-<br>
-
 ```text
-Requirements
-     │
-     ▼
-Architecture
-     │
-     ▼
-Database Design
-     │
-     ▼
-API / Backend
-     │
-     ▼
-Frontend
-     │
-     ▼
-Testing
-     │
-     ▼
-Deployment
+╭──────────────────────────────────────────────────────────────╮
+│                                                              │
+│                    CURRENT FOCUS                             │
+│                                                              │
+│        ██████╗ ███████╗██╗   ██╗                            │
+│        ██╔══██╗██╔════╝██║   ██║                            │
+│        ██║  ██║█████╗  ██║   ██║                            │
+│        ██║  ██║██╔══╝  ╚██╗ ██╔╝                            │
+│        ██████╔╝███████╗ ╚████╔╝                             │
+│        ╚═════╝ ╚══════╝  ╚═══╝                              │
+│                                                              │
+│        SYSTEM DESIGN · DOCKER · BACKEND · APIs              │
+│                                                              │
+╰──────────────────────────────────────────────────────────────╯
 ```
+
+### Learning by building.
+
+`System Design` · `Docker` · `DevOps` · `API Architecture`
 
 </div>
 
@@ -591,93 +652,105 @@ Deployment
 
 ---
 
-# `07` — Development Workflow
+# `07` · DEVELOPMENT PIPELINE
+
+<div align="center">
 
 <table width="100%">
-
 <tr>
 
-<td align="center" width="16%">
+<td align="center">
 
-### 01
+### `01`
 
 📝
 
-**Analyze**
+**ANALYZE**
 
-Requirements & constraints
+Requirements
 
 </td>
 
-<td align="center" width="16%">
+<td align="center">→</td>
 
-### 02
+<td align="center">
+
+### `02`
 
 🧩
 
-**Design**
+**DESIGN**
 
-Architecture & entities
+Architecture
 
 </td>
 
-<td align="center" width="16%">
+<td align="center">→</td>
 
-### 03
+<td align="center">
+
+### `03`
 
 🗄️
 
-**Model**
+**MODEL**
 
-Database & relationships
+Database
 
 </td>
 
-<td align="center" width="16%">
+<td align="center">→</td>
 
-### 04
+<td align="center">
+
+### `04`
 
 ⚙️
 
-**Build**
+**BUILD**
 
-Backend & APIs
+Backend
 
 </td>
 
-<td align="center" width="16%">
+<td align="center">→</td>
 
-### 05
+<td align="center">
+
+### `05`
 
 🎨
 
-**Develop**
+**CREATE**
 
-Frontend & UX
+Frontend
 
 </td>
 
-<td align="center" width="16%">
+<td align="center">→</td>
 
-### 06
+<td align="center">
+
+### `06`
 
 🚀
 
-**Deploy**
+**SHIP**
 
-Test & release
+Deploy
 
 </td>
 
 </tr>
-
 </table>
+
+</div>
 
 <br>
 
 ---
 
-# `08` — GitHub Analytics
+# `08` · GITHUB ANALYTICS
 
 <div align="center">
 
@@ -695,20 +768,22 @@ Test & release
 
 ---
 
-# `09` — GitHub Profile
+# `09` · GITHUB
 
 <div align="center">
 
 <a href="https://github.com/Yassin1920">
 
-<img src="https://img.shields.io/badge/GitHub-Yassin1920-0d1117?style=for-the-badge&logo=github&logoColor=8BC7CA" />
+<img src="https://img.shields.io/badge/GITHUB-Yassin1920-0d1117?style=for-the-badge&logo=github&logoColor=8BC7CA" />
 
 </a>
 
 <br><br>
 
 <sub>
-Explore my repositories, experiments, projects and ongoing learning journey.
+
+Projects · Experiments · Learning · Open Source
+
 </sub>
 
 </div>
@@ -717,32 +792,38 @@ Explore my repositories, experiments, projects and ongoing learning journey.
 
 ---
 
-# `10` — Let's Connect
+# `10` · LET'S CONNECT
 
 <div align="center">
 
-## Have a project, opportunity or idea?
+<h2>Let's build something meaningful.</h2>
 
-I'm currently open to **Full Stack Developer opportunities**, internships, freelance projects and interesting collaborations.
+<p>
+I'm open to <b>Full Stack Developer opportunities</b>,
+<br>
+internships, freelance projects and interesting collaborations.
+</p>
 
 <br>
 
 <a href="mailto:mouhamedyassin6@gmail.com">
+
 <img src="https://img.shields.io/badge/START%20A%20CONVERSATION-8BC7CA?style=for-the-badge&logo=gmail&logoColor=0d1117" />
+
 </a>
 
 <br><br>
 
 <a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/">
-<img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=8BC7CA" />
+<img src="https://img.shields.io/badge/LINKEDIN-0d1117?style=flat-square&logo=linkedin&logoColor=8BC7CA" />
 </a>
 
 <a href="https://wa.me/21622314826">
-<img src="https://img.shields.io/badge/WhatsApp-0d1117?style=flat-square&logo=whatsapp&logoColor=8BC7CA" />
+<img src="https://img.shields.io/badge/WHATSAPP-0d1117?style=flat-square&logo=whatsapp&logoColor=8BC7CA" />
 </a>
 
 <a href="mailto:mouhamedyassin6@gmail.com">
-<img src="https://img.shields.io/badge/Email-0d1117?style=flat-square&logo=gmail&logoColor=8BC7CA" />
+<img src="https://img.shields.io/badge/EMAIL-0d1117?style=flat-square&logo=gmail&logoColor=8BC7CA" />
 </a>
 
 <br><br>
@@ -753,7 +834,9 @@ I'm currently open to **Full Stack Developer opportunities**, internships, freel
 
 <sub>
 
-© 2026 **Abed Mouhamed Yassin**
+© 2026 Abed Mouhamed Yassin
+
+<br>
 
 Built with curiosity · structured thinking · continuous learning
 
@@ -763,8 +846,10 @@ Built with curiosity · structured thinking · continuous learning
 
 <br>
 
-<p align="center">
+<div align="center">
+
 <sub>
-▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 </sub>
-</p>
+
+</div>

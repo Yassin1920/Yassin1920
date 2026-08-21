@@ -20,21 +20,28 @@
 
 <p align="center"><sub>▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁</sub></p>
 
-## `01` Profile
+## `01` About Me
 
 <table width="100%">
 <tr>
 <td width="62%" valign="top">
 
-I'm a Full Stack Developer who builds the unglamorous parts well: a data model that doesn't need to be redesigned six months in, an API that fails predictably, a UI that stays responsive under real usage — not just in the demo.
+I'm a Full Stack Developer who builds the unglamorous parts well — the parts users never see but always feel: a data model that doesn't need to be redesigned six months in, an API that fails predictably instead of silently, a UI that stays responsive under real usage, not just in the demo.
 
-My approach starts on paper before it starts in the editor. I map entities and relationships before touching a migration, think through edge cases before writing a controller, and treat maintainability and documentation as part of the deliverable, not a "nice to have" I'll get to later.
+My process starts on paper before it starts in the editor. I map entities and relationships before touching a migration, think through edge cases before writing a controller, and treat documentation and maintainability as part of the deliverable — not a "nice to have" I'll get to later. That habit is why my projects tend to survive contact with real users and real growth.
 
-What I bring to a team:
+I'm not chasing every new framework. I pick up new tools because a problem genuinely needs them, then go deep enough to actually own that layer of the stack — not just glue it together.
 
-- **End-to-end ownership** — comfortable owning a feature from database schema to deployed UI
-- **Structured thinking** — I design before I code, which means fewer rewrites later
-- **A builder's curiosity** — I pick up new tools because a problem needs them, not to pad a resume
+<br>
+
+<table>
+<tr>
+<td align="center" width="25%">🧩<br><sub><b>End-to-end<br>ownership</b></sub></td>
+<td align="center" width="25%">📐<br><sub><b>Design-first<br>thinking</b></sub></td>
+<td align="center" width="25%">🔍<br><sub><b>Edge-case<br>discipline</b></sub></td>
+<td align="center" width="25%">📖<br><sub><b>Docs as<br>deliverable</b></sub></td>
+</tr>
+</table>
 
 </td>
 <td width="38%" valign="top">
@@ -46,7 +53,7 @@ stack:     PHP · JavaScript
 focus:     Backend + Frontend
 currently: Laravel + React apps
 exploring: System design patterns
-status:    Open to work
+status:    ● Open to work
 ```
 
 <br>
@@ -70,41 +77,65 @@ status:    Open to work
 
 <table width="100%">
 <tr>
-<td width="140" valign="top"><b>Frontend</b><br><sub>Interfaces</sub></td>
+<td width="150" valign="top">
+
+**🎨 Frontend**
+<br><sub>Interfaces</sub>
+
+</td>
 <td valign="top">
 
 <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap&theme=dark" />
-<br><sub>Responsive, component-driven UIs — from static Bootstrap layouts to dynamic React apps consuming live APIs.</sub>
+
+Responsive, component-driven UIs — from static Bootstrap layouts to dynamic React apps consuming live APIs in real time.
 
 </td>
 </tr>
 <tr><td colspan="2"><sub>&nbsp;</sub></td></tr>
 <tr>
-<td width="140" valign="top"><b>Backend</b><br><sub>Core expertise</sub></td>
+<td width="150" valign="top">
+
+**⚙️ Backend**
+<br><sub>Core expertise</sub>
+
+</td>
 <td valign="top">
 
 <img src="https://skillicons.dev/icons?i=php,laravel,symfony&theme=dark" />
-<br><sub>Server-side logic, authentication, and API design — primarily in Laravel, with Symfony for structured enterprise-style architectures.</sub>
+
+Server-side logic, authentication, and API design — primarily in Laravel, with Symfony for structured, enterprise-style architectures. This is where I'm strongest.
 
 </td>
 </tr>
 <tr><td colspan="2"><sub>&nbsp;</sub></td></tr>
 <tr>
-<td width="140" valign="top"><b>Databases</b><br><sub>Data layer</sub></td>
+<td width="150" valign="top">
+
+**🗄️ Databases**
+<br><sub>Data layer</sub>
+
+</td>
 <td valign="top">
 
 <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,oracle&theme=dark" />
-<br><sub>Relational schema design in MySQL / PostgreSQL / Oracle, plus document-based modeling in MongoDB when the shape of the data calls for it.</sub>
+
+Relational schema design in MySQL / PostgreSQL / Oracle, plus document-based modeling in MongoDB when the shape of the data calls for it rather than forcing a table.
 
 </td>
 </tr>
 <tr><td colspan="2"><sub>&nbsp;</sub></td></tr>
 <tr>
-<td width="140" valign="top"><b>Tooling</b><br><sub>Workflow</sub></td>
+<td width="150" valign="top">
+
+**🛠️ Tooling**
+<br><sub>Workflow</sub>
+
+</td>
 <td valign="top">
 
 <img src="https://skillicons.dev/icons?i=git,github,docker,vscode,postman&theme=dark" />
-<br><sub>Git-based version control, Docker for consistent environments, Postman for API testing, StarUML for architecture diagrams before the first line of code.</sub>
+
+Git-based version control, Docker for consistent environments, Postman for API testing, and StarUML for architecture diagrams — before the first line of code is ever written.
 
 </td>
 </tr>
@@ -218,7 +249,7 @@ I'm currently open to **Full Stack Developer** roles and freelance collaboration
 <br>
 
 1. Push the `assets/banner.svg` file to your repo (same folder as this README) — it's a custom-designed banner, not a third-party service, so it needs to live in your repo.
-2. Find and replace every `Yassin1920` with your real GitHub username (stats widgets won't render without this).
+2. Your username `Yassin1920` is already set correctly across all stats widgets.
 3. Replace the `#` project links with your real repo URLs.
 4. Add one screenshot or GIF above each project card title — this is the single biggest driver of recruiter engagement.
 5. Adjust the proficiency bars in `03` to honestly reflect your level.

@@ -1,5 +1,5 @@
 <div align="center">
-  <!-- ====== PROFESSIONAL SVG BANNER (no external file) ====== -->
+  <!-- ====== PROFESSIONAL SVG BANNER (fully corrected) ====== -->
   <svg width="100%" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <!-- Background gradient -->
@@ -16,7 +16,7 @@
         <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite" />
         <animate attributeName="x2" values="100%;0%;100%" dur="8s" repeatCount="indefinite" />
       </linearGradient>
-      <!-- Pattern: subtle grid -->
+      <!-- Subtle grid pattern -->
       <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
         <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a2a3a" stroke-width="0.5" opacity="0.3" />
       </pattern>
@@ -24,20 +24,20 @@
         <feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="#8BC7CA" flood-opacity="0.2" />
       </filter>
     </defs>
-    
+
     <!-- Background -->
     <rect width="1200" height="280" fill="url(#bgPro)" rx="12" />
     <rect width="1200" height="280" fill="url(#grid)" rx="12" />
-    
+
     <!-- Glowing underline (animated) -->
     <rect x="120" y="240" width="960" height="2.5" fill="url(#glowPro)" rx="1.5" />
-    
+
     <!-- Left side: Name and title -->
     <g transform="translate(60, 50)">
       <!-- Small icon: </> -->
       <circle cx="40" cy="40" r="28" fill="none" stroke="#8BC7CA" stroke-width="1.5" opacity="0.6" />
       <text x="40" y="46" font-family="'Courier New', monospace" font-size="24" font-weight="bold" fill="#8BC7CA" text-anchor="middle">&#60;/&#62;</text>
-      
+
       <!-- Name -->
       <text x="90" y="32" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff" filter="url(#shadowPro)" letter-spacing="1">
         Abed Mouhamed Yassin
@@ -51,8 +51,8 @@
         Building scalable systems · Clean code · Reliable builds
       </text>
     </g>
-    
-    <!-- Tech icons (aligned right) -->
+
+    <!-- Tech icons (aligned right) – corrected URLs -->
     <g transform="translate(820, 55)">
       <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" x="0" y="0" width="38" height="38" />
       <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" x="58" y="0" width="38" height="38" />

@@ -36,7 +36,7 @@
       </ul>
     </td>
     <td width="40%" valign="top">
-      <table style="background-color: #0d1117; border: 1px solid #8BC7AA; border-radius: 8px;">
+      <table style="background-color: #0d1117; border: 1px solid #8BC7AA; border-radius: 8px; padding: 10px;">
         <tr><td><strong>Role</strong></td><td>Full Stack Developer</td></tr>
         <tr><td><strong>Based in</strong></td><td>Tunisia</td></tr>
         <tr><td><strong>Stack</strong></td><td>PHP · JavaScript</td></tr>

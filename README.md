@@ -1,134 +1,495 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&center=true&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B%2C+I'm+Abed+Mouhamed+Yassin;Full+Stack+Developer" alt="Typing SVG" />
-</h1>
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Full%20Stack%20Developer-2563eb?style=for-the-badge&logo=developer&logoColor=white" alt="Full Stack Developer" />
-</p>
+<div align="center">
 
-<p align="center">
-  <strong>Designing scalable web applications, building reliable backend systems, and crafting modern web interfaces.</strong>
-</p>
+<h1>Abed Mouhamed Yassin</h1>
 
-<p align="center">
-  <a href="mailto:mouhamedyassin6@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://wa.me/21622314826">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/YassinAbed">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-## 👨‍💻 About Me
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=700&color=8BC7CA&center=true&vCenter=true&width=720&lines=Full+Stack+Developer;Software+Engineering+Student;Building+Scalable+Systems;Clean+Code+%7C+Architecture+%7C+Innovation" alt="Typing SVG"/>
+
+<br><br>
+
+<a href="mailto:mouhamedyassin6@gmail.com">
+<img src="https://img.shields.io/badge/EMAIL-8BC7CA?style=for-the-badge&logo=gmail&logoColor=0B1120"/>
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/">
+<img src="https://img.shields.io/badge/LINKEDIN-8BC7CA?style=for-the-badge&logo=linkedin&logoColor=0B1120"/>
+</a>
+&nbsp;
+<a href="https://github.com/YassinAbed">
+<img src="https://img.shields.io/badge/GITHUB-8BC7CA?style=for-the-badge&logo=github&logoColor=0B1120"/>
+</a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=YassinAbed&label=PROFILE%20VIEWS&color=8BC7CA&style=flat-square"/>
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+## `01` — WHO AM I?
+
+</div>
+
+<table>
+<tr>
+<td width="55%">
+
+### 👨‍💻 Full Stack Developer
+
+I build **modern, reliable and scalable web applications** by combining clean backend architecture with intuitive frontend experiences.
+
+My approach is simple:
+
+> **Understand the problem → Design the system → Build the solution → Improve continuously.**
+
+I enjoy transforming ideas into structured software, solving technical challenges and exploring technologies that make systems better.
+
+<br>
+
+**📍 Tunisia 🇹🇳**
+
+**💻 Full Stack Development**
+
+**🏗️ Software Architecture**
+
+**🧠 Problem Solving**
+
+**🚀 Continuous Learning**
+
+</td>
+
+<td width="45%">
 
 ```python
-class FullStackDeveloper:
+class Developer:
+
     def __init__(self):
         self.name = "Abed Mouhamed Yassin"
         self.role = "Full Stack Developer"
-        self.location = "Tunisia"
-        self.passions = [
-            "Building robust web applications",
-            "Solving complex technical problems",
-            "Designing structured systems",
-            "Continuous learning"
+
+        self.mindset = [
+            "Clean Code",
+            "Scalability",
+            "Problem Solving",
+            "Continuous Learning"
         ]
-    
-    def say_hi(self):
-        print("Thanks for visiting my profile! Let's build something amazing together.")
-I am a Full Stack Developer passionate about building robust and scalable web applications.
-My focus is combining solid backend architecture with modern frontend technologies to deliver efficient and maintainable software solutions.
 
-I enjoy solving complex technical problems, designing structured systems, and continuously learning new technologies to improve my engineering skills.
+        self.focus = {
+            "frontend": "Modern UI",
+            "backend": "Solid Architecture",
+            "database": "Structured Data",
+            "devops": "Reliable Delivery"
+        }
 
-🚀 Core Technical Skills
-Frontend Development
-<p align="center"> <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap" /> </p> <p align="center"> <code>HTML5</code> • <code>CSS3</code> • <code>JavaScript</code> • <code>React</code> • <code>Bootstrap</code> </p>
+    def build(self, idea):
+        return (
+            "Design",
+            "Develop",
+            "Test",
+            "Deploy",
+            "Improve"
+        )
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## `02` — TECHNICAL UNIVERSE
+
+### ⚡ Technologies I Work With
+
+</div>
+
+<br>
+
+<table align="center">
+<tr>
+
+<td align="center" width="25%">
+
+### 🎨 FRONTEND
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap" />
+
+<br><br>
+
+`HTML5` · `CSS3`
+`JavaScript` · `React`
+`Bootstrap`
+
+</td>
+
+<td align="center" width="25%">
+
+### ⚙️ BACKEND
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,php,laravel" />
+
+<br><br>
+
+`Node.js` · `Express.js`
+`PHP` · `Laravel`
+`REST APIs`
+
+</td>
+
+<td align="center" width="25%">
+
+### 🗄️ DATABASE
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,oracle" />
+
+<br><br>
+
+`MySQL` · `PostgreSQL`
+`MongoDB` · `Oracle`
+
+</td>
+
+<td align="center" width="25%">
+
+### 🛠️ TOOLS
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=git,docker,vscode,postman" />
+
+<br><br>
+
+`Git` · `Docker`
+`VS Code` · `Postman`
+`WAMP` · `StarUML`
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+---
+
+<div align="center">
+
+## `03` — WHAT I BUILD
+
+</div>
+
+<br>
+
+<table>
+<tr>
+
+<td width="50%">
+
+### 🍔 Tasty Bites
+
+**Self-Service Restaurant Kiosk**
+
+Interactive restaurant ordering system designed for touchscreen kiosks.
+
+**Stack**
+
+`React` `JavaScript` `REST API`
+`LocalStorage` `Styled Components`
+`Framer Motion`
+
+**Highlights**
+
+* 🍕 Dynamic menu
+* 🧩 Product customization
+* 🛒 Smart cart
+* 📱 Touch-friendly interface
+* ✨ Animated UI
+* 🔄 API integration
+
+</td>
+
+<td width="50%">
+
+### 💊 Pharmacy Management
+
+**Pharmacy Management Platform**
+
+Full-stack solution designed around pharmacy sales, products, prescriptions and stock management.
+
+**Stack**
+
+`React` `Node.js` `MySQL`
+`REST API` `Docker`
+
+**Highlights**
+
+* 💰 Point of Sale
+* 🔎 Product search
+* 📦 Stock management
+* 💊 Prescription sales
+* 📊 Dashboard
+* 🔐 Access control
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%">
+
+### 🦷 Système de Gestion de RDV Dentiste
+
+**Dental Appointment Management System**
+
+Modern web application designed to help dentists efficiently manage appointments, patients and availability.
+
+**Stack**
+
+`React` `Node.js` `Express.js`
+`MySQL` `REST API`
+
+**Highlights**
+
+* 📅 Appointment management
+* 👤 Patient management
+* 🕐 Availability management
+* 🔄 Create, update and cancel appointments
+* 📊 Administrative dashboard
+* 🔔 Appointment notifications
+* 🔐 Authentication & access control
+* 📱 Responsive interface
+* ⚡ Frontend / Backend REST API communication
+
+</td>
+
+<td width="50%">
+
+### 🛒 E-Commerce
+
+**Full Stack E-Commerce Platform**
+
+Complete web platform focused on products, customers, orders and administration.
+
+**Stack**
+
+`PHP` `MySQL` `JavaScript`
+`Bootstrap`
+
+**Highlights**
+
+* 🛍️ Product management
+* 🗂️ Categories & brands
+* 🛒 Shopping cart
+* 📦 Orders
+* 👥 Customers
+* ⚙️ Admin dashboard
+
+</td>
+
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## `04` — ENGINEERING MINDSET
+
+</div>
+
+<br>
+
+```text
+                    ┌──────────────────────┐
+                    │       PROBLEM        │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │       ANALYZE        │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │      ARCHITECT       │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+              ┌─────────────────────────────────┐
+              │              BUILD              │
+              │                                 │
+              │   Frontend → Backend → Database │
+              └────────────────┬────────────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │        TEST          │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │       DEPLOY         │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │       IMPROVE        │
+                    └──────────────────────┘
+```
+
+---
+
+<div align="center">
+
+## `05` — CURRENTLY EXPLORING
+
+</div>
+
+<br>
+
+<table align="center">
+<tr>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=docker"/>
+<br>
+<b>Docker</b>
+<br>
+Containerization
+</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=linux"/>
+<br>
+<b>Linux</b>
+<br>
+Development Environment
+</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=git"/>
+<br>
+<b>Git</b>
+<br>
+Version Control
+</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=nodejs"/>
+<br>
+<b>Node.js</b>
+<br>
 Backend Development
-<p align="center"> <img src="https://skillicons.dev/icons?i=php,laravel,symfony" /> </p> <p align="center"> <code>PHP</code> • <code>Laravel</code> • <code>Symfony</code> </p>
-Database Systems
-<p align="center"> <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,oracle" /> </p> <p align="center"> <code>MySQL</code> • <code>PostgreSQL</code> • <code>Oracle Database</code> • <code>MongoDB</code> </p>
-Development Tools & Environment
-<p align="center"> <img src="https://skillicons.dev/icons?i=git,docker,vscode,postman" /> </p> <p align="center"> <code>Git</code> • <code>Docker</code> • <code>Visual Studio Code</code> • <code>Postman</code> • <code>WAMP</code> • <code>StarUML</code> </p><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-📂 Featured Projects
-⚛️ React Web Application – API Integration
-Modern web application developed using React that consumes external APIs and integrates cloud-based services to provide a dynamic and scalable user experience.
+</td>
 
-Technologies:
-https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB
-https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black
-https://img.shields.io/badge/REST%2520API-005571?style=flat-square&logo=fastapi&logoColor=white
+<td align="center">
+<img src="https://skillicons.dev/icons?i=python"/>
+<br>
+<b>Python</b>
+<br>
+Automation & Development
+</td>
 
-Key Features:
+</tr>
+</table>
 
-✅ API data consumption
+---
 
-✅ Dynamic React components
+<div align="center">
 
-✅ Modern responsive UI
+## `06` — GITHUB ANALYTICS
 
-✅ Scalable architecture
+<br>
 
-🖥️ E‑commerce Platform
-Full-stack web application developed with a traditional web stack focusing on structured backend logic and responsive frontend interfaces.
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=YassinAbed&show_icons=true&hide_border=true&theme=transparent&title_color=8BC7CA&icon_color=8BC7CA&text_color=94A3B8"/>
 
-Frontend:
-https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white
-https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white
-https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black
-https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=YassinAbed&hide_border=true&theme=transparent&ring=8BC7CA&fire=8BC7CA&currStreakLabel=8BC7CA"/>
 
-Backend:
-https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white
-https://img.shields.io/badge/MySQL-00000F?style=flat-square&logo=mysql&logoColor=white
+<br><br>
 
-Key Features:
+<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YassinAbed&layout=compact&hide_border=true&theme=transparent&title_color=8BC7CA&text_color=94A3B8"/>
 
-✅ CRUD operations (Create, Read, Update, Delete)
+</div>
 
-✅ Responsive design using Bootstrap
+---
 
-✅ Server-side processing with PHP
+<div align="center">
 
-✅ MySQL database management
+## `07` — MY DEVELOPMENT LOOP
 
-✅ Structured application architecture
+<br>
 
-🏨 Hotel Management System
-Web-based management system designed to handle hotel operations including reservations, customer management, and administrative tasks.
+```python
+def create_software(problem):
 
-Frontend:
-https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white
-https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white
-https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black
-https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white
+    requirements = understand(problem)
 
-Backend:
-https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white
-https://img.shields.io/badge/MySQL-00000F?style=flat-square&logo=mysql&logoColor=white
+    architecture = design(
+        requirements,
+        scalability=True,
+        maintainability=True
+    )
 
-Key Features:
+    code = implement(architecture)
 
-✅ Reservation management
+    solution = test(code)
 
-✅ Customer data handling
+    deploy(solution)
 
-✅ Administrative dashboard
+    return improve(solution)
+```
 
-✅ Secure backend logic
+<br>
 
-✅ Database-driven system
+**Understand → Design → Build → Test → Deploy → Improve**
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-📊 GitHub Stats
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=YassinAbed&show_icons=true&theme=radical" alt="GitHub Stats" /> </p><p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YassinAbed&layout=compact&theme=radical" alt="Top Languages" /> </p><p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=YassinAbed&theme=radical" alt="GitHub Streak" /> </p><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-🌐 Connect with Me
-<p align="center"> <a href="mailto:mouhamedyassin6@gmail.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="https://wa.me/21622314826"> <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /> </a> <a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://github.com/YassinAbed"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /> </a> </p><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" /><p align="center"> <strong> <i>💡 Building reliable software solutions through clean architecture, modern technologies, and continuous learning.</i> </strong> </p><p align="center"> <img src="https://komarev.com/ghpvc/?username=YassinAbed&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" /> </p><p align="center"> <img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg" alt="Snake animation" /> </p> ```
+</div>
+
+---
+
+<div align="center">
+
+## `08` — CONNECT WITH ME
+
+<br>
+
+<a href="mailto:mouhamedyassin6@gmail.com">
+<img src="https://img.shields.io/badge/GMAIL-8BC7CA?style=for-the-badge&logo=gmail&logoColor=0B1120"/>
+</a>
+
+<a href="https://www.linkedin.com/in/abed-mouhamed-yassin-81ab54212/">
+<img src="https://img.shields.io/badge/LINKEDIN-8BC7CA?style=for-the-badge&logo=linkedin&logoColor=0B1120"/>
+</a>
+
+<a href="https://github.com/YassinAbed">
+<img src="https://img.shields.io/badge/GITHUB-8BC7CA?style=for-the-badge&logo=github&logoColor=0B1120"/>
+</a>
+
+<br><br>
+
+### `Building software. Solving problems. Learning continuously.`
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,50:164E63,100:8BC7CA&height=140&section=footer" width="100%"/>
+
+</div>

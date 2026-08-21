@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="./assets/banner.svg" alt="Abed Mouhamed Yassin — Full Stack Developer" />
+<img width="100%" src="./banner.svg" alt="Abed Mouhamed Yassin — Full Stack Developer" />
 
 <br><br>
 
